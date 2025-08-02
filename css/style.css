@@ -1,0 +1,116 @@
+body {
+  font-family: "Plumb";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 32px;
+}
+.footer .container {
+  display: flex;
+  gap: 121px;
+  margin-top: 37px;
+  align-items: start;
+}
+
+.footer-link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 174%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #fff !important;
+}
+
+.assorti-footer-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.location-link {
+  gap: 4px;
+  align-items: start;
+  max-width: 166px;
+}
+
+.footer-link.vk {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.footer-link-box {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+
+.footer-link-box.second {
+  gap: 6px;
+}
+
+.footer-left {
+  display: flex;
+  gap: 40px;
+  align-items: start;
+}
+
+.footer-title {
+  font-weight: 700;
+  color: #D60000;
+  margin-bottom: 7px;
+  font-style: Bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.footer-right-first {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.footer-right {
+  display: flex;
+  gap: 57px;
+  align-items: start;
+}
+
+.footer-right-first.third {
+  margin-left: 8px;
+}
+
+.footer-right-first.last {
+  margin-left: 15px;
+}
+
+.footer-bottom {
+  background-color: #D60000;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.footer-bottom .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bottom .footer-bottom-right {
+  display: flex;
+  gap: 190px;
+}
+
+/*# sourceMappingURL=style.css.map */

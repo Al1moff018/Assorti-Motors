@@ -1,0 +1,24 @@
+{
+  "name": "gstore",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch sass/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Al1moff018/Gstore.git"
+  },
+  "keywords": [],
+  "author": "al1moff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Al1moff018/Gstore/issues"
+  },
+  "homepage": "https://github.com/Al1moff018/Gstore#readme",
+  "description": "my web site",
+  "dependencies": {
+    "sass": "^1.89.2"
+  }
+}

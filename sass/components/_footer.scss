@@ -1,6 +1,7 @@
 .footer{
     background-color: #000;
     color: #fff;
+    position: relative;
     .container{
         display: flex;
         gap: 121px;
@@ -85,4 +86,23 @@
         gap: 190px;
         
     }
+}
+.red-line{
+    position: absolute;
+    top: 70px;
+    left: 3px;
+    width: 458px;
+    height: 1px;
+    background-color: #D60000;
+    z-index: 1;
+}
+.red-line.right{
+    position: absolute;
+    top: 70px;
+    right: 3px !important;
+    left: unset;
+    width: 458px;
+    height: 1px;
+    background-color: #D60000;
+    z-index: 1;
 }

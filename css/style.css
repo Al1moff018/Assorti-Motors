@@ -135,4 +135,14 @@ body {
   z-index: 1;
 }
 
+.footer-link.bottom {
+  font-weight: 400;
+  font-size: 10px !important;
+  line-height: 174%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #fff !important;
+}
+
 /*# sourceMappingURL=style.css.map */

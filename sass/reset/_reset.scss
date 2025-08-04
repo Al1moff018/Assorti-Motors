@@ -10,3 +10,35 @@ body{
     max-width: 1240px;
     margin: 0 auto;
 }
+.title{
+    font-weight: 900;
+    font-style: Black;
+    color: #D60000;
+    font-size: 70px;
+    line-height: 71%;
+    letter-spacing: -9.5%;
+    text-transform: uppercase;
+}
+.sub-title{
+    font-weight: 900;
+    font-style: Black;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 2px !important;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: black;
+    max-width: 623px;
+    display: flex;
+    justify-content: space-between;
+}
+.show-more-btn{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    color: #D60000;
+    display: flex;
+    gap: 13px;
+}

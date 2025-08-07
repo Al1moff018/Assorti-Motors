@@ -1,3 +1,8 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
 body {
   font-family: "Plumb";
 }
@@ -8,6 +13,10 @@ body {
   box-sizing: border-box;
 }
 
+.wrapper {
+  overflow: hidden !important;
+}
+
 .container {
   max-width: 1240px;
   margin: 0 auto;
@@ -15,11 +24,10 @@ body {
 
 .title {
   font-weight: 900;
-  font-style: Black;
   color: #D60000;
   font-size: 70px;
   line-height: 71%;
-  letter-spacing: -9.5%;
+  letter-spacing: -7px;
   text-transform: uppercase;
 }
 
@@ -28,7 +36,7 @@ body {
   font-style: Black;
   font-size: 14px;
   line-height: 180%;
-  letter-spacing: 2px !important;
+  letter-spacing: 8px !important;
   text-transform: uppercase;
   margin-top: 10px;
   color: black;
@@ -46,6 +54,155 @@ body {
   color: #D60000;
   display: flex;
   gap: 13px;
+}
+
+@media (max-width: 950px) {
+  .footer-right {
+    display: none !important;
+  }
+  .menu-btn {
+    display: block !important;
+  }
+  .footer-link.location-link {
+    max-width: 100%;
+  }
+  .footer-left {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .red-line {
+    display: none !important;
+  }
+  .footer-top {
+    padding: 0 20px;
+  }
+  .container {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 600px) {
+  .footer-bottom .container {
+    flex-direction: column !important;
+    justify-content: start !important;
+    align-items: center !important;
+  }
+  .footer-bottom .footer-bottom-right {
+    flex-direction: column !important;
+    gap: 0 !important;
+  }
+}
+@media (max-width: 375px) {
+  .footer-left {
+    flex-direction: column !important;
+    gap: 12px !important;
+  }
+  .footer-link-box {
+    gap: 12px !important;
+  }
+}
+.advantages-title-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.advantages-card-title-black {
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 85%;
+  letter-spacing: -15px;
+  text-transform: uppercase;
+  margin-bottom: 26px;
+}
+
+.advantages-card-info {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.6px;
+  max-width: 163px;
+  margin-bottom: 22px;
+}
+.advantages-card-info.red {
+  color: #D60000;
+}
+
+.advantages-card-title-red {
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 85%;
+  letter-spacing: -15px;
+  text-transform: uppercase;
+  margin-bottom: 26px;
+  color: #D60000;
+}
+
+.advantages-card {
+  opacity: 1;
+  border-width: 7px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 34px;
+  padding-top: 82px;
+}
+.advantages-card .advantages-card-title-black {
+  margin: 0 !important;
+}
+.advantages-card.red {
+  width: 272px !important;
+  height: 522px !important;
+  position: relative;
+  z-index: 5;
+  border: 7px solid #000000;
+  padding-left: 34px;
+  padding-top: 82px;
+}
+.advantages-card.red .advantages-card-title-red {
+  margin: 0;
+}
+.advantages-card.red .card-map-img {
+  position: absolute;
+  top: 122px;
+  right: -100px;
+  z-index: -1;
+  opacity: 1;
+  transform: rotate(13deg);
+}
+.advantages-card.red .buy-car-btn {
+  width: 218px;
+  background-color: #fff;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  height: 92px;
+  position: absolute;
+  right: 227px;
+  top: 392px;
+}
+.advantages-card.red .buy-car-btn button {
+  font-weight: 700;
+  white-space: nowrap;
+  font-size: 14px;
+  width: 100%;
+  height: 50px;
+  line-height: 79%;
+  letter-spacing: 20%;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  background-color: #D60000;
+  padding: 20px 35px;
+}
+
+.advantages-card-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages-section {
+  margin-top: 136px;
+  margin-bottom: 46px;
 }
 
 .auction-card {
@@ -272,6 +429,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.menu-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -77,6 +77,11 @@ body {
   left: -50px !important;
 }
 
+@media (max-width: 480px) {
+  .swiper-pagination {
+    left: 80px !important;
+  }
+}
 .header-mobile-link {
   display: none;
 }

@@ -44,3 +44,20 @@ body{
     display: flex;
     gap: 13px;
 }
+.sub-title{
+    flex-wrap: wrap;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active{
+    width: 26px !important;
+}
+.swiper-pagination-bullet{
+    width: 5px !important;
+    height: 0 !important;
+    // height: 5px;
+    background-color: #D60000;
+    opacity: 1 !important;
+    border: 5px solid #D60000;
+}
+.swiper-pagination{
+    left: -50px !important;
+}

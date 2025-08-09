@@ -8,89 +8,61 @@
     <link rel="stylesheet" href="fonts/inter/stylesheet.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="icon" href="images/Assorti-footer-logo.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="wrapper">
-        <header class="header">
+        <header>
+            <div class="container header">
             <div>
-                <a href="#!">
+                <a class="header-red-big-logo" href="#!">
                     <img src="images/header-left.png" alt="header-left">
                 </a>
             </div>
-            <div>
-                <a href="#!">
+            <div class="header-right-logo-box">
+                <a href="#!" class="header-desktop-logo">
                     <img src="images/header-logo.png" alt="logo">
                 </a>
+                <a class="header-mobile-link assorti-logo" href="#!">
+                    <img src="images/icons/header-mobile-logo.svg" alt="Assorti-Motors">
+                </a>
             </div>
-            <div>
-                <a href="#!">
+            <div class="header-right-logo-box">
+                <a class="header-desktop-logo" href="#!">
                     <img src="images/header-right.png" alt="header-right">
                 </a>
+                <a class="header-mobile-link" href="#!"><img src="images/icons/header-skype.svg" alt=""></a>
+                <a class="header-mobile-link" href="#!"><img src="images/icons/whatsapp-icon.svg" alt=""></a>
+                <a class="header-mobile-link" href="#!"><img src="images/icons/header-car.svg" alt=""></a>
+            </div>
             </div>
         </header>
         <main>
-            <section class="info-section">
-                <div class="container">
-                    <h1 class="title">информационный раздел
-                        <p class="sub-title"><span>новости</span><span>статьи</span><span>спецпредложения</span></p>
-                    </h1>
-                    <div class="cards-box">
-                        <div class="auction-cards">
-                            <div class="auction-card">
-                                <div class="auction-card-img-box">
-                                    <img src="images/auction-card-img.png" alt="card-img">
-                                </div>
-                                <div>
-                                    <h2 class="card-title">Рынок или аукцион? Каковы плюсы и минусы покупки автомобиля на аукционах?</h2>
-                                    <p class="auction-card-info">Главный плюс — гарантия покупки автомобиля именно в том состоянии, которое вам обещают. Аукционная оценка — аспект, выгодно отличающий аукцион от автомобильного рынка. </p>
-                                    <a class="show-more-btn" href="#!">Читать подробнее <img src="images/icons/arrow-right.svg" alt="arrow-right"></a>
-                                </div>
-                            </div>
-                            <div class="auction-card">
-                                <div class="auction-card-img-box">
-                                    <img src="images/auction-card-img.png" alt="card-img">
-                                </div>
-                                <div>
-                                    <h2 class="card-title">Рынок или аукцион? Каковы плюсы и минусы покупки автомобиля на аукционах?</h2>
-                                    <p class="auction-card-info">Главный плюс — гарантия покупки автомобиля именно в том состоянии, которое вам обещают. Аукционная оценка — аспект, выгодно отличающий аукцион от автомобильного рынка. </p>
-                                    <a class="show-more-btn" href="#!">Читать подробнее <img src="images/icons/arrow-right.svg" alt="arrow-right"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="info-red-card">
-                            <img class="info-red-card-bg" src="images/info-red-card.png" alt="info-red-card">
-                            <h2 class="red-card-title">Ввоз на физическое и юридическое лицо — в чем разница?</h2>
-                            <a class="show-more-btn" href="#!">Читать подробнее <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M8.28516 11.4438L11.2852 8.44385L8.28516 5.44385L7.23516 6.49385L8.43516 7.69385H5.28516V9.19385H8.43516L7.23516 10.3938L8.28516 11.4438ZM8.28516 15.9438C7.24766 15.9438 6.27266 15.7468 5.36016 15.3528C4.44766 14.9588 3.65391 14.4246 2.97891 13.7501C2.30391 13.0751 1.76966 12.2813 1.37616 11.3688C0.982656 10.4563 0.785656 9.48135 0.785156 8.44385C0.785156 7.40635 0.982156 6.43135 1.37616 5.51885C1.77016 4.60635 2.30441 3.8126 2.97891 3.1376C3.65391 2.4626 4.44766 1.92835 5.36016 1.53485C6.27266 1.14135 7.24766 0.944348 8.28516 0.943848C9.32266 0.943848 10.2977 1.14085 11.2102 1.53485C12.1227 1.92885 12.9164 2.4631 13.5914 3.1376C14.2664 3.8126 14.8009 4.60635 15.1949 5.51885C15.5889 6.43135 15.7857 7.40635 15.7852 8.44385C15.7852 9.48135 15.5882 10.4563 15.1942 11.3688C14.8002 12.2813 14.2659 13.0751 13.5914 13.7501C12.9164 14.4251 12.1227 14.9596 11.2102 15.3536C10.2977 15.7476 9.32266 15.9443 8.28516 15.9438ZM8.28516 14.4438C9.96016 14.4438 11.3789 13.8626 12.5414 12.7001C13.7039 11.5376 14.2852 10.1188 14.2852 8.44385C14.2852 6.76885 13.7039 5.3501 12.5414 4.1876C11.3789 3.0251 9.96016 2.44385 8.28516 2.44385C6.61016 2.44385 5.19141 3.0251 4.02891 4.1876C2.86641 5.3501 2.28516 6.76885 2.28516 8.44385C2.28516 10.1188 2.86641 11.5376 4.02891 12.7001C5.19141 13.8626 6.61016 14.4438 8.28516 14.4438Z" fill="#fff"/>
-    </svg></a>
-                        </div>
-                    </div>
-                </div>
-            </section>
             <section class="advantages-section">
                 <div class="container">
                     <div class="advantages-title-box">
                         <h1 class="title">преимущества:
                             <span class="sub-title">работы с нами</span>
                         </h1>
-                        <img src="images/title-icon.svg" alt="">
+                        <img class="advantages-title-img" src="images/title-icon.svg" alt="">
                     </div>
+                    <div class="advantages-centred-box">
                     <div class="advantages-card-box">
                         <div class="advantages-card">
                             <h1 class="advantages-card-title-black">18</h1>
                             <p class="advantages-card-info">лет возим автомобили с Востока</p>
-                            <a class="show-more-btn" href="#!">История <img src="images/icons/arrow-right.svg" alt="arrow-right"></a>
+                            <a class="show-more-btn" href="#!"><span>История</span> <img src="images/icons/arrow-right.svg" alt="arrow-right"></a>
                         </div>
                         <div class="advantages-card">
                             <h1 class="advantages-card-title-black">300+</h1>
                             <p class="advantages-card-info">постоянных клиентов</p>
-                            <a class="show-more-btn" href="#!">Как мы работаем <img src="images/icons/arrow-right.svg" alt="arrow-right"></a>
+                            <a class="show-more-btn" href="#!"><span>Как мы работаем</span>  <img src="images/icons/arrow-right.svg" alt="arrow-right"></a>
                         </div>
                         <div class="advantages-card red">
                             <h1 class="advantages-card-title-red">2000+</h1>
                             <p class="advantages-card-info red">машин уже привезли за годы работы</p>
-                            <a class="show-more-btn" href="#!">Смотреть галерею <img src="images/icons/arrow-right.svg" alt="arrow-right"></a>
+                            <a class="show-more-btn" href="#!"><span> Смотреть галерею </span><img src="images/icons/arrow-right.svg" alt="arrow-right"></a>
                             <img class="card-map-img" src="images/card-map-img.svg" alt="map">
                             <div class="buy-car-btn">
                                 <button>заказать  авто</button>
@@ -99,9 +71,57 @@
                         <div class="advantages-card">
                             <h1 class="advantages-card-title-black">0</h1>
                             <p class="advantages-card-info">негативных отзывов</p>
-                            <a class="show-more-btn" href="#!">Как мы работаем<img src="images/icons/arrow-right.svg" alt="arrow-right"></a>
+                            <a class="show-more-btn" href="#!"><span>Как мы работаем</span> <img src="images/icons/arrow-right.svg" alt="arrow-right"></a>
                         </div>
+                        <button class="buy-car-btn-big">заказать  авто</button>
                     </div>
+                    </div>
+                </div>
+            </section>
+            <section class="info-section">
+<div class="container">
+                    <h1 class="title">информационный раздел
+                        <p class="sub-title">новости статьи спецпредложения</p>
+                    </h1>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="auction-card">
+                                <div class="auction-card-img-box">
+                                    <img src="images/auction-card-img.png" alt="card-img">
+                                </div>
+                                <div>
+                                    <h2 class="card-title">Рынок или аукцион? Каковы плюсы и минусы покупки автомобиля на аукционах?</h2>
+                                    <p class="auction-card-info">Главный плюс — гарантия покупки автомобиля именно в том состоянии, которое вам обещают. Аукционная оценка — аспект, выгодно отличающий аукцион от автомобильного рынка. </p>
+                                    <a class="show-more-btn" href="#!">Читать подробнее <img src="images/icons/arrow-right.svg" alt="arrow-right"></a>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="auction-card">
+                                    <div class="auction-card-img-box">
+                                        <img src="images/auction-card-img.png" alt="card-img">
+                                    </div>
+                                    <div>
+                                        <h2 class="card-title">Рынок или аукцион? Каковы плюсы и минусы покупки автомобиля на аукционах?</h2>
+                                        <p class="auction-card-info">Главный плюс — гарантия покупки автомобиля именно в том состоянии, которое вам обещают. Аукционная оценка — аспект, выгодно отличающий аукцион от автомобильного рынка. </p>
+                                        <a class="show-more-btn" href="#!">Читать подробнее <img src="images/icons/arrow-right.svg" alt="arrow-right"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                            <div class="info-red-card">
+                                <img class="info-red-card-bg" src="images/info-red-card.png" alt="info-red-card">
+                                <h2 class="red-card-title">Ввоз на физическое и юридическое лицо — в чем разница?</h2>
+                                <a class="show-more-btn" href="#!">Читать подробнее <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8.28516 11.4438L11.2852 8.44385L8.28516 5.44385L7.23516 6.49385L8.43516 7.69385H5.28516V9.19385H8.43516L7.23516 10.3938L8.28516 11.4438ZM8.28516 15.9438C7.24766 15.9438 6.27266 15.7468 5.36016 15.3528C4.44766 14.9588 3.65391 14.4246 2.97891 13.7501C2.30391 13.0751 1.76966 12.2813 1.37616 11.3688C0.982656 10.4563 0.785656 9.48135 0.785156 8.44385C0.785156 7.40635 0.982156 6.43135 1.37616 5.51885C1.77016 4.60635 2.30441 3.8126 2.97891 3.1376C3.65391 2.4626 4.44766 1.92835 5.36016 1.53485C6.27266 1.14135 7.24766 0.944348 8.28516 0.943848C9.32266 0.943848 10.2977 1.14085 11.2102 1.53485C12.1227 1.92885 12.9164 2.4631 13.5914 3.1376C14.2664 3.8126 14.8009 4.60635 15.1949 5.51885C15.5889 6.43135 15.7857 7.40635 15.7852 8.44385C15.7852 9.48135 15.5882 10.4563 15.1942 11.3688C14.8002 12.2813 14.2659 13.0751 13.5914 13.7501C12.9164 14.4251 12.1227 14.9596 11.2102 15.3536C10.2977 15.7476 9.32266 15.9443 8.28516 15.9438ZM8.28516 14.4438C9.96016 14.4438 11.3789 13.8626 12.5414 12.7001C13.7039 11.5376 14.2852 10.1188 14.2852 8.44385C14.2852 6.76885 13.7039 5.3501 12.5414 4.1876C11.3789 3.0251 9.96016 2.44385 8.28516 2.44385C6.61016 2.44385 5.19141 3.0251 4.02891 4.1876C2.86641 5.3501 2.28516 6.76885 2.28516 8.44385C2.28516 10.1188 2.86641 11.5376 4.02891 12.7001C5.19141 13.8626 6.61016 14.4438 8.28516 14.4438Z" fill="#fff"/>
+        </svg></a>
+                </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </section>
         </main>
@@ -201,5 +221,7 @@
             </div>
         </div>
     </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>

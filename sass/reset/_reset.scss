@@ -49,6 +49,7 @@ body{
 }
 .swiper-pagination-bullet.swiper-pagination-bullet-active{
     width: 26px !important;
+    border-radius: 90px !important;
 }
 .swiper-pagination-bullet{
     width: 5px !important;
@@ -63,6 +64,11 @@ body{
 }
 @media (max-width: 480px){
     .swiper-pagination{
-        left: 80px !important;
+        left: 50% !important;
+        bottom: -100px !important;
+        transform: translateX(-50%);
     }
+}
+.swiper-slide{
+    overflow: hidden;
 }

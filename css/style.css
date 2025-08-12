@@ -93,7 +93,7 @@ body {
   display: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .header-mobile-link {
     display: block;
     margin-left: 10px;
@@ -157,7 +157,7 @@ body {
     gap: 0 !important;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .footer-left {
     flex-direction: column !important;
     gap: 12px !important;
@@ -175,16 +175,19 @@ body {
   grid-template-columns: repeat(4, 1fr); /* Dastlab 4 ta ustun */
   gap: 20px; /* Kartalar orasidagi masofa */
   justify-content: center;
+  width: 100%;
 }
 
 /* Tablet (maks. 1024px) - 2 ta ustun */
 @media (max-width: 1024px) {
   .advantages-card-box {
     grid-template-columns: repeat(2, 1fr);
+    gap: 120px;
+    width: 100%;
   }
 }
 /* Mobile (maks. 768px) - 1 ta ustun */
-@media (max-width: 618px) {
+@media (max-width: 768px) {
   .sub-title {
     font-weight: 900;
     font-size: 14px;
@@ -211,6 +214,7 @@ body {
   .advantages-card-box .advantages-card.red {
     flex-direction: row !important;
     align-items: center !important;
+    width: 100%;
     justify-content: space-between !important;
     padding-top: 13px;
     border-width: 3px;
@@ -302,14 +306,18 @@ body {
 .advantages-card {
   opacity: 1;
   border-width: 7px;
+  height: 240px !important;
+  justify-content: space-between;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   padding-left: 34px;
-  padding-top: 82px;
+  padding-top: 20px;
+  padding-bottom: 0;
 }
 .advantages-card.red {
   width: 272px !important;
-  height: 522px !important;
+  padding-bottom: 490px;
   position: relative;
   z-index: 5;
   border: 7px solid #000000;
@@ -367,8 +375,67 @@ body {
   color: #D60000;
 }
 
-.auction-card {
-  width: 376px;
+.red-circle-title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 113%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 340px;
+  padding-top: 162px;
+  color: #fff;
+  margin-left: 70px;
+  margin-bottom: 33px;
+}
+
+.red-circle-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  max-width: 395px;
+  margin-left: 70px;
+  color: #fff;
+}
+
+.red-circle {
+  width: 608px;
+  height: 608px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  mix-blend-mode: Multiply;
+}
+.red-circle .show-more-btn {
+  margin-left: 72px;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.red-circle::before {
+  content: " ";
+  position: absolute;
+  background-color: #D60000;
+  border-radius: 50%;
+  opacity: 0.9;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: Multiply;
+}
+
+.constructor-car-img-box {
+  width: 940px;
+  height: 622px;
+  opacity: 1;
+  mix-blend-mode: Multiply;
+  position: absolute;
+  bottom: 134px;
+  right: 90px;
+}
+
+.constructor-section .container {
+  position: relative;
 }
 
 .card-title {
@@ -380,6 +447,15 @@ body {
   color: #D60000;
   margin-top: 20px;
   margin-bottom: 16px;
+}
+
+.auction-card-img-box {
+  height: 250px;
+  width: 100%;
+}
+.auction-card-img-box img {
+  width: 100%;
+  height: 100%;
 }
 
 .auction-card-info {
@@ -398,7 +474,6 @@ body {
 
 .info-red-card {
   position: relative;
-  width: 380px;
   height: 486px;
   display: flex;
   flex-direction: column;

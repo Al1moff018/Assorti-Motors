@@ -15,14 +15,18 @@
 .advantages-card {
   opacity: 1;
   border-width: 7px;
+  height: 240px !important;
+  justify-content: space-between;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   padding-left: 34px;
-  padding-top: 82px;
+  padding-top: 20px;
+  padding-bottom: 0;
 
   &.red {
     width: 272px !important;
-    height: 522px !important;
+    padding-bottom:490px ;
     position: relative;
     z-index: 5;
     border: 7px solid #000000;
@@ -57,7 +61,6 @@
     }
   }
 }
-
 .advantages-card-title-black,
 .advantages-card-title-red {
   font-weight: 900;

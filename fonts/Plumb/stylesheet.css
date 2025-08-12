@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Plumb';
+    src: url('Plumb-Black.woff2') format('woff2'),
+        url('Plumb-Black.woff') format('woff'),
+        url('Plumb-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Plumb';
+    src: url('Plumb-Regular.woff2') format('woff2'),
+        url('Plumb-Regular.woff') format('woff'),
+        url('Plumb-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Plumpfull';
+    src: url('Plumpfull.woff2') format('woff2'),
+        url('Plumpfull.woff') format('woff'),
+        url('Plumpfull.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Plumb';
+    src: url('Plumb-Medium.woff2') format('woff2'),
+        url('Plumb-Medium.woff') format('woff'),
+        url('Plumb-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

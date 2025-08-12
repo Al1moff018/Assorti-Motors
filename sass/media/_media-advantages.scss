@@ -6,17 +6,20 @@
   grid-template-columns: repeat(4, 1fr); /* Dastlab 4 ta ustun */
   gap: 20px; /* Kartalar orasidagi masofa */
   justify-content: center;
+  width: 100%;
 }
 
 /* Tablet (maks. 1024px) - 2 ta ustun */
 @media (max-width: 1024px) {
   .advantages-card-box {
     grid-template-columns: repeat(2, 1fr);
+    gap: 120px;
+    width: 100%;
   }
 }
 
 /* Mobile (maks. 768px) - 1 ta ustun */
-@media (max-width: 618px) {
+@media (max-width: 768px) {
       .sub-title{
         font-weight: 900;
         font-size: 14px;
@@ -43,6 +46,7 @@
   .advantages-card-box .advantages-card.red {
     flex-direction: row !important;
     align-items: center !important;
+    width: 100%;
     justify-content: space-between !important;
     padding-top: 13px;
     border-width: 3px;

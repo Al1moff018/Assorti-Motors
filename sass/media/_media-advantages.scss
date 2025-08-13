@@ -27,6 +27,12 @@
         letter-spacing: 8px !important;
         text-transform: uppercase;
     }
+    .advantages-card-box{
+      gap: 0;
+    }
+    .advantages-card.red{
+      padding: 13px !important;
+    }
     .advantages-title-img{
         width: 36px;
         height: 76px;
@@ -55,7 +61,6 @@
     padding-left:13px;
     width: 100% !important;
     height: 53px !important;
-    padding: 0 !important;
     .advantages-card-title-black,
     .advantages-card-title-red {
         font-weight: 900;

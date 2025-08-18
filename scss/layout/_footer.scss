@@ -1,0 +1,139 @@
+.footer__main {
+    background-color: #000000;
+    padding: 31px 0 15px 0;
+
+}
+.footer-top{
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    .red__line{
+        width: 459px;
+        height: 1px;
+        background-color: #D60000;
+    }
+}
+.footer__logo {
+    width: 188px;
+    height: 80px;
+    margin: 0 auto 0 auto;
+}
+
+.footer__logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer__chap-qism {
+    display: flex;
+    gap: 40px;
+
+}
+
+.footer__left {
+    .footer__contacts {
+        li {
+            display: flex;
+            gap: 4px;
+            align-items: start;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 174%;
+            margin-bottom: 27px;
+            color: #FFFFFF;
+            max-width: 170px;
+            & img {
+                width: 16px;
+                height: 16px;
+            }
+        }
+    }
+}
+
+.footer__center {
+    .footer__phones {
+        li {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 173%;
+            display: flex;
+            gap: 9px;
+            align-items: center;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+    }
+}
+
+.footer__orab-turuvchi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__sections {
+    display: flex;
+
+    .footer__column {
+        h4 {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 81%;
+            text-transform: uppercase;
+            color: #D60000;
+            margin-bottom: 24px;
+        }
+
+        li {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 81%;
+            margin-bottom: 15px;
+            color: #FFFFFF;
+            opacity: 0.7;
+            cursor: pointer;
+        }
+    }
+
+    .footer__column.first {
+        margin-right: 57px;
+    }
+
+    .footer__column.second {
+        margin-right: 65px;
+    }
+
+    .footer__column.third {
+        margin-right: 72px;
+    }
+}
+
+.h4 {
+    margin-top: 35px;
+    margin-bottom: 0 !important;
+}
+
+.footer__bottom {
+    background-color: #D60000;
+    padding: 6px 0 9px 0;
+
+    .footer__bottom-orab {
+        display: flex;
+
+        .footer__copy {
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 100%;
+            color: #FFFFFF;
+            a{
+                color: white;
+            }
+        }
+
+        justify-content: space-between;
+
+        .second__orab-turuvchi {
+            display: flex;
+            gap: 200px;
+        }
+    }
+}

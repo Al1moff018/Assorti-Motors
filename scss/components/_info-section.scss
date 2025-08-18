@@ -1,0 +1,157 @@
+    .info-section__header {
+        margin-bottom: 30px;
+
+        .info-section__title {
+            font-weight: 900;
+            font-size: 70px;
+            line-height: 71%;
+            text-transform: uppercase;
+            letter-spacing: -7px;
+            color: #D60000;
+            margin-bottom: 10px;
+        }
+    }
+
+    .info-section__nav {
+        display: flex;
+        gap: 35px;
+
+        .info-section__nav-item {
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 180%;
+            letter-spacing: 11px;
+            text-transform: uppercase;
+
+        }
+    }
+
+    .info-section {
+        background: url(../../img/sircle-bc.png);
+        padding: 150px 0;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+
+
+
+        .info-section__articles {
+            display: flex;
+            justify-content: space-between;
+
+            .info-card__image {
+                width: 376px;
+                height: 248px;
+                margin-bottom: 20px;
+            }
+
+            .info-card__image img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .info-card__content {
+            .info-card__title {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 120%;
+                text-transform: uppercase;
+                color: #D60000;
+                margin-bottom: 16px;
+                max-width: 381px;
+            }
+
+            .info-card__text {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 130%;
+                max-width: 361px;
+                color: #000000;
+                opacity: 70%;
+                margin-bottom: 40px;
+            }
+
+            .auction-heading {
+                max-width: 360px;
+                margin-bottom: 40px;
+            }
+
+            .auction-description {
+                margin-bottom: 22px;
+                max-width: 335px;
+            }
+        }
+
+    }
+
+    .info-card__link-wrap {
+        display: flex;
+        align-items: center;
+        gap: 13px;
+        cursor: pointer;
+
+        .info-card__link {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            text-decoration: underline;
+            text-decoration-style: solid;
+            color: #D60000;
+        }
+    }
+
+    .info-card__link-wrap img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .import-difference-card {
+        background-image: url(../../img/product-img/cars-parking.png);
+        background-size: cover;
+        background-position: center;
+        background-color: #D60000;
+        background-blend-mode: multiply;
+        position: relative;
+        width: 380px;
+        height: 486px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-bottom: 35px;
+        padding-left: 24px;
+        padding-right: 24px;
+
+
+        .info-card__header {
+            .info-card__title {
+                max-width: 250px;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 109.00000000000001%;
+                text-transform: uppercase;
+                color: #fff;
+            }
+        }
+
+    }
+    .info-card__footer {
+        display: flex;
+        align-items: center;
+        gap: 13px;
+
+        .info-card__link {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            text-decoration: underline;
+            text-decoration-style: solid;
+            color: #FFFFFF;
+        }
+
+        .info-card__icon path {
+            fill: #fff;
+        }
+
+    }

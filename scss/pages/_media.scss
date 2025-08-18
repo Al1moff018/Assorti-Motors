@@ -1,0 +1,445 @@
+.nimadir1 {
+    display: none;
+    display: flex;
+    align-items: center;
+}
+.nimadir4{
+    margin-top: 11px;
+}
+.profile,
+.icon-wrapper,
+.order-btn-wrapper,
+.nimadir5,
+.nimadir12 {
+    display: none;
+}
+
+.nimadir8 {
+    display: flex;
+    gap: 20px;
+}
+
+.nimadir10 {
+    color: #D60000;
+}
+
+.info-card__image,
+.info-card__content {
+    padding-inline: 10px;
+}
+
+.import-difference-card {
+    width: 370px;
+    margin-right: 10px;
+}
+
+.info-card__subtitle {
+    display: inline-block;
+    max-width: 150px;
+    line-height: 1.4;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+@media (max-width: 725px) {
+    .footer__main {
+        padding: 18px 26px;
+    }
+
+    .footer-top {
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+
+    .footer-top .red__line {
+        display: none;
+    }
+
+
+    .footer__chap-qism {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .footer__left .footer__contacts li {
+        margin-bottom: 0;
+        max-width: 100%;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 110.00000000000001%;
+
+    }
+
+    .footer__center .footer__phones li {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 173%;
+        gap: 7px;
+
+    }
+
+    .footer__logo {
+        margin: 0;
+        width: 120px;
+        height: 38px;
+    }
+
+    .footer__bottom {
+        padding: 13px 91px 11px 91px;
+    }
+
+    .footer__bottom .footer__bottom-orab {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10.73px;
+    }
+
+    .footer__bottom .footer__bottom-orab .footer__copy {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+
+    }
+
+    .footer__bottom .footer__bottom-orab .second__orab-turuvchi {
+        flex-direction: column;
+        gap: 10.73px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon-wrapper {
+        display: flex !important;
+        gap: 6px;
+        align-items: center;
+    }
+
+    .header .header__container .header__menu-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .nimadir5 {
+        display: block;
+        width: 67px;
+        height: 31px;
+        margin-top: 7.78px;
+    }
+
+    .header__container .header__menu-btn img {
+        width: 12.49px;
+        height: 12.49px;
+    }
+
+    .icon-wrapper__car-box {
+        padding: 5.06px 7.18px 7.06px 7.18px;
+        background-color: #D60000;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+    }
+
+    .info-section {
+        padding: 63px 0;
+    }
+
+    .info-section__header {
+        padding: 10px;
+    }
+
+    .info-section__header .info-section__title {
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 85% !important;
+        letter-spacing: -3px;
+        text-transform: uppercase;
+        margin-top: 63px;
+
+    }
+
+    .benefits-section .info-section__list {
+        gap: 8px;
+    }
+
+    .nimadir3 {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .info-card__item,
+    .nimadir2 {
+        display: flex;
+    }
+
+    .nimadir2 {
+        height: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 13px 23px 13px;
+        align-items: center;
+    }
+
+    .nimadir7 {
+        // margin-left: auto;
+    }
+
+    .info-card__item {
+        align-items: center;
+        margin-bottom: 23px;
+        gap: 25px;
+        width: 100%;
+        padding: 13px;
+        padding-left: 17px;
+    }
+
+    .japan-map {
+        display: none;
+    }
+
+    .order-btn-wrapper {
+        display: block;
+        background-color: #D60000;
+        padding: 19.7px 66px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all .2s linear;
+
+        .order-btn {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 79%;
+            letter-spacing: 7px;
+            text-align: center;
+            text-transform: uppercase;
+            color: white;
+            transition: all .2s linear;
+        }
+    }
+
+    .order-btn-wrapper:hover .order-btn {
+        color: #D60000;
+    }
+
+    .order-btn-wrapper:hover {
+        background-color: white;
+        border: #000 solid 1px;
+    }
+
+    .nimadir2 {
+        // gap: 47px;
+
+        justify-content: space-between;
+        margin: 0;
+        align-items: center;
+    }
+
+    .nimadir3 .info-card__item .info-card__number {
+        margin: 0;
+    }
+
+    .info-card__link-wrap--gallery {
+        margin-left: auto;
+    }
+
+    .info-card__item--gallery {
+        padding: 13px;
+        border: 3px solid #000;
+        width: 100%;
+    }
+
+    .nimadir3 .info-card__item .info-card__number {
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 85%;
+        letter-spacing: -5px;
+        text-transform: uppercase;
+
+    }
+
+    .container-2 {
+        padding: 8px;
+    }
+
+    .nimadir3 .info-card__item .info-card__subtitle {
+        max-width: 155px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 90%;
+
+    }
+
+    .nimadir10 {
+        display: flex;
+        color: #D60000;
+        gap: 35px;
+    }
+
+    .info-section__nav .info-section__nav-item {
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    .info-section__nav {
+        gap: 4px;
+        flex-direction: column;
+    }
+
+    .nimadir9 {
+        display: none;
+    }
+
+    .benefits-section .info-section__list .info-section__list-item {
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 180%;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    .benefits-section .info-section__image-block {
+        padding: 17.64px 8.21px;
+        border: 1px solid #000;
+
+        & img {
+            width: 22px;
+            height: 35px;
+        }
+    }
+
+    .nimadir1,
+    .profile,
+    .nimadir12 {
+        display: block !important;
+
+    }
+
+    .nimadir3 .info-card__item {
+        height: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+
+    .info-card__content {
+        padding: 0;
+    }
+
+    .footer__orab-turuvchi {
+        padding: 0;
+    }
+
+    // product media start
+    .section {
+        padding-bottom: 45px;
+    }
+
+    .end-col {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .swiper-wrapper {
+        position: unset;
+    }
+
+    .end-block {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .swiper-slide {
+        overflow-x: hidden;
+    }
+
+    .swiper-slide .end-block .end-round {
+        opacity: 1;
+        width: 346px;
+        height: 346px;
+        left: -73px;
+        bottom: 172px;
+    }
+
+    .special-offer__circle {
+        margin-left: 5px;
+        justify-content: unset;
+        padding: 0;
+
+    }
+
+    .special-offer .special-offer__circle .special-offer__title {
+        margin-top: 0;
+        font-size: 18px;
+        line-height: 112.52%;
+        margin-bottom: 19px;
+        width: 226px;
+    }
+
+    .special-offer .special-offer__circle .special-offer__desc {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 112.99999999999999%;
+        width: 231px;
+    }
+
+    .special-offer {
+        top: 45px;
+        bottom: auto;
+        left: 7px;
+        max-width: 230px;
+
+    }
+
+    .end-block .end-slide-content {
+        margin-top: 270px;
+    }
+
+    /* Barcha nuqtalar dumaloq */
+    .swiper-pagination{
+        bottom:  -6px !important;
+        right: 0;
+        display: block;
+    }
+    .special-offers__pagination .swiper-pagination-bullet {
+        width: 5px;
+        height: 5px;
+        background: red;
+        opacity: 1;
+        border-radius: 50px;
+        transition: all 0.3s ease;
+    }
+
+    .special-offers__pagination .swiper-pagination-bullet-active {
+        width: 20px;
+        border-radius: 10px;
+    }
+
+
+
+
+
+    .footer__sections,
+    .header__order-btn,
+    .nimadir4,
+    .index-advan-btn,
+    .border,
+    .nimadir13 {
+        display: none !important;
+    }
+
+    .info-section__articles {
+        overflow: auto;
+        scrollbar-width: none;
+    }
+}

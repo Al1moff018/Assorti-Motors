@@ -1,0 +1,120 @@
+.section {
+    padding-top: 50px;
+    border-top: 1px solid #000;
+}
+
+.swiper-pagination {
+    display: none;
+}
+
+.special-offers__swiper {
+    transition: all 0.3s linear;
+}
+
+.special-offer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 400px;
+    position: absolute;
+    left: 70px;
+    bottom: 50px;
+    z-index: 2;
+
+    .special-offer__circle {
+        .special-offer__title {
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 112.52%;
+            letter-spacing: 0.025em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            margin-bottom: 32px;
+            margin-top: 100px;
+        }
+
+        .special-offer__desc {
+            font-size: 16px;
+            line-height: 140%;
+            letter-spacing: 0.025em;
+            color: #FFFFFF;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.special-offer__content {
+    flex: 0 0 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.special-offer__circle {
+    color: #fff;
+    padding: 50px 0;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+
+
+.special-offer__link {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.special-offer__footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+// .special-offer__image {
+//     flex: 0 0 50%;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+// }
+
+// .special-offer__image img {
+//     max-width: 100%;
+//     height: auto;
+// }
+
+.end-slide-content {
+    max-width: 1000px;
+    margin-left: auto;
+    width: 100%;
+}
+
+.end-block {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.end-round {
+    position: absolute;
+    left: 90px;
+    bottom: -100px;
+    width: 600px;
+    height: 600px;
+    z-index: 2;
+    mix-blend-mode: multiply;
+}
+
+.end-slide-content {
+    max-width: 1000px;
+    margin-left: auto;
+    width: 100%;
+}
+
+.end-slide-content img {
+    width: 100%;
+}

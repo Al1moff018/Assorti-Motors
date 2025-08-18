@@ -1,306 +1,566 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assorti-Motors</title>
-    <link rel="stylesheet" href="fonts/Plumb/stylesheet.css">
-    <link rel="stylesheet" href="fonts/inter/stylesheet.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="icon" href="images/Assorti-footer-logo.svg">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Assorti</title>
+    <link rel="icon" href="img/logo.svg">
+    <!-- <link rel="stylesheet" href="fonts/plumb-medium/stylesheet.css"> -->
+    <link rel="stylesheet" href="fonts/plumb-medium/stylesheet.css">
+    <link rel="stylesheet" href="scss/base/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="bootstrap-5.3.7-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <div class="wrapper">
-        <header>
-            <div class="container header">
-            <div>
-                <a class="header-red-big-logo" href="#!">
-                    <img src="images/header-left.png" alt="header-left">
-                </a>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__menu-btn">
+                <img src="img/icons/3-chiziq.svg" alt="Menu icon">
             </div>
-            <div class="header-right-logo-box">
-                <a href="#!" class="header-desktop-logo">
-                    <img src="images/header-logo.png" alt="logo">
-                </a>
-                <a class="header-mobile-link assorti-logo" href="#!">
-                    <img src="images/icons/header-mobile-logo.svg" alt="Assorti-Motors">
-                </a>
+            <div class="header__logo">
+                <img class="nimadir4" src="img/logo-2.svg" alt="Logo">
+                <img class="nimadir5" src="img/logo-3.svg" alt="">
             </div>
-            <div class="header-right-logo-box">
-                <a class="header-desktop-logo" href="#!">
-                    <img src="images/header-right.png" alt="header-right">
-                </a>
-                <a class="header-mobile-link" href="#!"><img src="images/icons/header-skype.svg" alt=""></a>
-                <a class="header-mobile-link" href="#!"><img src="images/icons/whatsapp-icon.svg" alt=""></a>
-                <a class="header-mobile-link" href="#!"><img src="images/icons/header-car.svg" alt=""></a>
+            <div class="header__order-btn">
+                <img src="img/icons/zakaz-avto.svg" alt="Order car icon">
             </div>
-            </div>
-        </header>
-        <main>
-            <section class="intro">
-                <div class="container">
-                    <div>
-                        <h1 class="intro-title">автомобили</h1>
-                        <p class="intro-info">Если вам нужен оригинальный японский автомобиль с гарантировано чистой родословной, Ваш путь – на аукционы Японии.</p>
-                        <div class="black-borders-box">
-                            <p class="black-border-box"> <span>с</span> <span>а</span> <span>у</span> <span>к</span> <span>ц</span> <span>и</span> <span>о</span> <span>н</span> <span>о</span> <span>в</span></p>
-                            <p class="black-border-box"> <span>я</span> <span>п</span> <span>о</span> <span>н</span>
-                            <span>и</span> <span>и</span>
-                                    <button class="buy-car-btn">заказать авто</button>
-                        </div>
-                    </div>
-                    <div class="swiper introSwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img class="red-circle-intro-bg" src="images/red-circle-intor-img.png" alt="">
-                            <img class="intro-cars-img" src="images/swiper-images.svg" alt="">
-                            <img class="intro-bg-bulidings" src="images/intro-bg-img.png" alt="">
-                        </div>
-                    </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
+            <div class="icon-wrapper">
+                <img class="icon-wrapper__s" src="img/icons/S.svg" alt="S icon">
+                <img class="icon-wrapper__phone" src="img/icons/phone2.svg" alt="Phone icon">
+                <div class="icon-wrapper__car-box">
+                    <img class="icon-wrapper__car" src="img/icons/car.svg" alt="Car icon">
                 </div>
-            </section>
-            <section class="advantages-section">
-                <div class="container">
-                    <div class="advantages-title-box">
-                        <h1 class="title">преимущества:
-                            <span class="sub-title">работы с нами</span>
-                        </h1>
-                        <img class="advantages-title-img" src="images/title-icon.svg" alt="">
-                    </div>
-                    <div class="advantages-centred-box">
-                    <div class="advantages-card-box">
-                        <div class="advantages-card">
-                            <h1 class="advantages-card-title-black">18</h1>
-                            <p class="advantages-card-info">лет возим автомобили с Востока</p>
-                            
-                            <a class="show-more-btn" href="#!"><span>История</span> <img src="images/icons/arrow-right.svg" alt="arrow-right"></a>
-                        </div>
-                        <div class="advantages-card">
-                            <h1 class="advantages-card-title-black">300+</h1>
-                            <p class="advantages-card-info">постоянных клиентов</p>
-                            <a class="show-more-btn" href="#!"><span>Как мы работаем</span>  <img src="images/icons/arrow-right.svg" alt="arrow-right"></a>
-                        </div>
-                        <div class="advantages-card red">
-                            <h1 class="advantages-card-title-red">2000+</h1>
-                            <p class="advantages-card-info red">машин уже привезли за годы работы</p>
-                            <a class="show-more-btn" href="#!"><span> Смотреть галерею </span><img src="images/icons/arrow-right.svg" alt="arrow-right"></a>
-                            <img class="card-map-img" src="images/card-map-img.svg" alt="map">
-                            <div class="buy-car-btn">
-                                <button>заказать  авто</button>
-                            </div>
-                        </div>
-                        <div class="advantages-card">
-                            <h1 class="advantages-card-title-black">0</h1>
-                            <p class="advantages-card-info">негативных отзывов</p>
-                            <a class="show-more-btn" href="#!"><span>Как мы работаем</span> <img src="images/icons/arrow-right.svg" alt="arrow-right"></a>
-                        </div>
-                        <button class="buy-car-btn-big">заказать  авто</button>
-                    </div>
-                    </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+
+        <section class="main-sec">
+            <div class="container">
+                <div class="title">
+                    <h1>автомобили</h1>
                 </div>
-            </section>
-            <section class="info-section">
-<div class="container">
-                    <h1 class="title">информационный раздел
-                        <p class="sub-title">новости статьи спецпредложения</p>
-                    </h1>
-                    <div class="swiper threeSwiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="auction-card">
-                                <div class="auction-card-img-box">
-                                    <img src="images/auction-card-img.png" alt="card-img">
-                                </div>
-                                <div>
-                                    <h2 class="card-title">Рынок или аукцион? Каковы плюсы и минусы покупки автомобиля на аукционах?</h2>
-                                    <p class="auction-card-info">Главный плюс — гарантия покупки автомобиля именно в том состоянии, которое вам обещают. Аукционная оценка — аспект, выгодно отличающий аукцион от автомобильного рынка. </p>
-                                    <a class="show-more-btn" href="#!">Читать подробнее <img src="images/icons/arrow-right.svg" alt="arrow-right"></a>
-                                </div>
+                <div class="row">
+                    <div class="col-lg-4 main-col">
+                        <div class="main-text">
+                            <p>Если вам нужен оригинальный японский автомобиль с гарантировано чистой родословной, Ваш
+                                путь – на
+                                аукционы Японии.</p>
+                            <div class="info-card__link-wrap nimadir7">
+                                <a href="#" class="info-card__link nimadir9">Об услуге</a>
+                                <svg class="info-card__icon" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.28516 11.4438L11.2852 8.44385L8.28516 5.44385L7.23516 6.49385L8.43516 7.69385H5.28516V9.19385H8.43516L7.23516 10.3938L8.28516 11.4438ZM8.28516 15.9438C7.24766 15.9438 6.27266 15.7468 5.36016 15.3528C4.44766 14.9588 3.65391 14.4246 2.97891 13.7501C2.30391 13.0751 1.76966 12.2813 1.37616 11.3688C0.982656 10.4563 0.785656 9.48135 0.785156 8.44385C0.785156 7.40635 0.982156 6.43135 1.37616 5.51885C1.77016 4.60635 2.30441 3.8126 2.97891 3.1376C3.65391 2.4626 4.44766 1.92835 5.36016 1.53485C6.27266 1.14135 7.24766 0.944348 8.28516 0.943848C9.32266 0.943848 10.2977 1.14085 11.2102 1.53485C12.1227 1.92885 12.9164 2.4631 13.5914 3.1376C14.2664 3.8126 14.8009 4.60635 15.1949 5.51885C15.5889 6.43135 15.7857 7.40635 15.7852 8.44385C15.7852 9.48135 15.5882 10.4563 15.1942 11.3688C14.8002 12.2813 14.2659 13.0751 13.5914 13.7501C12.9164 14.4251 12.1227 14.9596 11.2102 15.3536C10.2977 15.7476 9.32266 15.9443 8.28516 15.9438ZM8.28516 14.4438C9.96016 14.4438 11.3789 13.8626 12.5414 12.7001C13.7039 11.5376 14.2852 10.1188 14.2852 8.44385C14.2852 6.76885 13.7039 5.3501 12.5414 4.1876C11.3789 3.0251 9.96016 2.44385 8.28516 2.44385C6.61016 2.44385 5.19141 3.0251 4.02891 4.1876C2.86641 5.3501 2.28516 6.76885 2.28516 8.44385C2.28516 10.1188 2.86641 11.5376 4.02891 12.7001C5.19141 13.8626 6.61016 14.4438 8.28516 14.4438Z"
+                                        fill="#D60000" />
+                                </svg>
                             </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="auction-card">
-                                    <div class="auction-card-img-box">
-                                        <img src="images/auction-card-img.png" alt="card-img">
+                        </div>
+                        <div class="main-word">
+                            <h3 class="break-word">
+                                <span>с аукционов</span>
+                                <span>японии</span>
+                            </h3>
+                        </div>
+
+                        <div class="main-btn">
+                            <a href="#!" class="red-btn">заказать авто</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 p-0">
+                        <div class="main-content">
+                            <div class="main-slide">
+
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img class="pc-slide-img" src="img/index-avto-img.png" alt="">
+                                        <img class="meida-slide-img" src="img/media-slide-img.png" alt="">
                                     </div>
-                                    <div>
-                                        <h2 class="card-title">Рынок или аукцион? Каковы плюсы и минусы покупки автомобиля на аукционах?</h2>
-                                        <p class="auction-card-info">Главный плюс — гарантия покупки автомобиля именно в том состоянии, которое вам обещают. Аукционная оценка — аспект, выгодно отличающий аукцион от автомобильного рынка. </p>
-                                        <a class="show-more-btn" href="#!">Читать подробнее <img src="images/icons/arrow-right.svg" alt="arrow-right"></a>
+                                    <div class="swiper-slide">
+                                        <img class="pc-slide-img" src="img/index-avto-img.png" alt="">
+                                        <img class="meida-slide-img" src="img/media-slide-img.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img class="pc-slide-img" src="img/index-avto-img.png" alt="">
+                                        <img class="meida-slide-img" src="img/media-slide-img.png" alt="">
                                     </div>
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div>
-                            <div class="info-red-card">
-                                <img class="info-red-card-bg" src="images/info-red-card.png" alt="info-red-card">
-                                <h2 class="red-card-title">Ввоз на физическое и юридическое лицо — в чем разница?</h2>
-                                <a class="show-more-btn" href="#!">Читать подробнее <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M8.28516 11.4438L11.2852 8.44385L8.28516 5.44385L7.23516 6.49385L8.43516 7.69385H5.28516V9.19385H8.43516L7.23516 10.3938L8.28516 11.4438ZM8.28516 15.9438C7.24766 15.9438 6.27266 15.7468 5.36016 15.3528C4.44766 14.9588 3.65391 14.4246 2.97891 13.7501C2.30391 13.0751 1.76966 12.2813 1.37616 11.3688C0.982656 10.4563 0.785656 9.48135 0.785156 8.44385C0.785156 7.40635 0.982156 6.43135 1.37616 5.51885C1.77016 4.60635 2.30441 3.8126 2.97891 3.1376C3.65391 2.4626 4.44766 1.92835 5.36016 1.53485C6.27266 1.14135 7.24766 0.944348 8.28516 0.943848C9.32266 0.943848 10.2977 1.14085 11.2102 1.53485C12.1227 1.92885 12.9164 2.4631 13.5914 3.1376C14.2664 3.8126 14.8009 4.60635 15.1949 5.51885C15.5889 6.43135 15.7857 7.40635 15.7852 8.44385C15.7852 9.48135 15.5882 10.4563 15.1942 11.3688C14.8002 12.2813 14.2659 13.0751 13.5914 13.7501C12.9164 14.4251 12.1227 14.9596 11.2102 15.3536C10.2977 15.7476 9.32266 15.9443 8.28516 15.9438ZM8.28516 14.4438C9.96016 14.4438 11.3789 13.8626 12.5414 12.7001C13.7039 11.5376 14.2852 10.1188 14.2852 8.44385C14.2852 6.76885 13.7039 5.3501 12.5414 4.1876C11.3789 3.0251 9.96016 2.44385 8.28516 2.44385C6.61016 2.44385 5.19141 3.0251 4.02891 4.1876C2.86641 5.3501 2.28516 6.76885 2.28516 8.44385C2.28516 10.1188 2.86641 11.5376 4.02891 12.7001C5.19141 13.8626 6.61016 14.4438 8.28516 14.4438Z" fill="#fff"/>
-        </svg></a>
-                </div>
-                    </div>
-                    </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </section>
-            <section class="constructor-section">
-                <div class="container">
-                    <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="elements-box">
-                                <div class="red-circle">
-                                    <h1 class="red-circle-title">Специальное предложение для "авторазборов"!</h1>
-                                    <p class="red-circle-info">Ввоз автомобилей в полностью разобранном виде на паллете.Способ ввоза автомобилей в полностью разобранном виде используется исключительно для продажи контрактных автозапчастей.
-                                </p>
-                                <a class="show-more-btn" href="#!">Читать подробнее <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8.28516 11.4438L11.2852 8.44385L8.28516 5.44385L7.23516 6.49385L8.43516 7.69385H5.28516V9.19385H8.43516L7.23516 10.3938L8.28516 11.4438ZM8.28516 15.9438C7.24766 15.9438 6.27266 15.7468 5.36016 15.3528C4.44766 14.9588 3.65391 14.4246 2.97891 13.7501C2.30391 13.0751 1.76966 12.2813 1.37616 11.3688C0.982656 10.4563 0.785656 9.48135 0.785156 8.44385C0.785156 7.40635 0.982156 6.43135 1.37616 5.51885C1.77016 4.60635 2.30441 3.8126 2.97891 3.1376C3.65391 2.4626 4.44766 1.92835 5.36016 1.53485C6.27266 1.14135 7.24766 0.944348 8.28516 0.943848C9.32266 0.943848 10.2977 1.14085 11.2102 1.53485C12.1227 1.92885 12.9164 2.4631 13.5914 3.1376C14.2664 3.8126 14.8009 4.60635 15.1949 5.51885C15.5889 6.43135 15.7857 7.40635 15.7852 8.44385C15.7852 9.48135 15.5882 10.4563 15.1942 11.3688C14.8002 12.2813 14.2659 13.0751 13.5914 13.7501C12.9164 14.4251 12.1227 14.9596 11.2102 15.3536C10.2977 15.7476 9.32266 15.9443 8.28516 15.9438ZM8.28516 14.4438C9.96016 14.4438 11.3789 13.8626 12.5414 12.7001C13.7039 11.5376 14.2852 10.1188 14.2852 8.44385C14.2852 6.76885 13.7039 5.3501 12.5414 4.1876C11.3789 3.0251 9.96016 2.44385 8.28516 2.44385C6.61016 2.44385 5.19141 3.0251 4.02891 4.1876C2.86641 5.3501 2.28516 6.76885 2.28516 8.44385C2.28516 10.1188 2.86641 11.5376 4.02891 12.7001C5.19141 13.8626 6.61016 14.4438 8.28516 14.4438Z" fill="#fff"/>
-                        </svg></a>
+
+                                <div class="pagination-container">
+                                    <div class="swiper-pagination2"></div>
+                                    <div class="swiper-pagination"></div>
                                 </div>
-                                <div class="constructor-car-img-box">
-                                    <img src="images/constructor-section-bg.png" alt="constructor-car-img-box">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="elements-box">
-                                <div class="red-circle">
-                                    <h1 class="red-circle-title">Специальное предложение для "авторазборов"!</h1>
-                                    <p class="red-circle-info">Ввоз автомобилей в полностью разобранном виде на паллете.Способ ввоза автомобилей в полностью разобранном виде используется исключительно для продажи контрактных автозапчастей.
-                                </p>
-                                <a class="show-more-btn" href="#!">Читать подробнее <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8.28516 11.4438L11.2852 8.44385L8.28516 5.44385L7.23516 6.49385L8.43516 7.69385H5.28516V9.19385H8.43516L7.23516 10.3938L8.28516 11.4438ZM8.28516 15.9438C7.24766 15.9438 6.27266 15.7468 5.36016 15.3528C4.44766 14.9588 3.65391 14.4246 2.97891 13.7501C2.30391 13.0751 1.76966 12.2813 1.37616 11.3688C0.982656 10.4563 0.785656 9.48135 0.785156 8.44385C0.785156 7.40635 0.982156 6.43135 1.37616 5.51885C1.77016 4.60635 2.30441 3.8126 2.97891 3.1376C3.65391 2.4626 4.44766 1.92835 5.36016 1.53485C6.27266 1.14135 7.24766 0.944348 8.28516 0.943848C9.32266 0.943848 10.2977 1.14085 11.2102 1.53485C12.1227 1.92885 12.9164 2.4631 13.5914 3.1376C14.2664 3.8126 14.8009 4.60635 15.1949 5.51885C15.5889 6.43135 15.7857 7.40635 15.7852 8.44385C15.7852 9.48135 15.5882 10.4563 15.1942 11.3688C14.8002 12.2813 14.2659 13.0751 13.5914 13.7501C12.9164 14.4251 12.1227 14.9596 11.2102 15.3536C10.2977 15.7476 9.32266 15.9443 8.28516 15.9438ZM8.28516 14.4438C9.96016 14.4438 11.3789 13.8626 12.5414 12.7001C13.7039 11.5376 14.2852 10.1188 14.2852 8.44385C14.2852 6.76885 13.7039 5.3501 12.5414 4.1876C11.3789 3.0251 9.96016 2.44385 8.28516 2.44385C6.61016 2.44385 5.19141 3.0251 4.02891 4.1876C2.86641 5.3501 2.28516 6.76885 2.28516 8.44385C2.28516 10.1188 2.86641 11.5376 4.02891 12.7001C5.19141 13.8626 6.61016 14.4438 8.28516 14.4438Z" fill="#fff"/>
-                        </svg></a>
-                                </div>
-                                <div class="constructor-car-img-box">
-                                    <img src="images/constructor-section-bg.png" alt="constructor-car-img-box">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="elements-box">
-                                <div class="red-circle">
-                                    <h1 class="red-circle-title">Специальное предложение для "авторазборов"!</h1>
-                                    <p class="red-circle-info">Ввоз автомобилей в полностью разобранном виде на паллете.Способ ввоза автомобилей в полностью разобранном виде используется исключительно для продажи контрактных автозапчастей.
-                                </p>
-                                <a class="show-more-btn" href="#!">Читать подробнее <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8.28516 11.4438L11.2852 8.44385L8.28516 5.44385L7.23516 6.49385L8.43516 7.69385H5.28516V9.19385H8.43516L7.23516 10.3938L8.28516 11.4438ZM8.28516 15.9438C7.24766 15.9438 6.27266 15.7468 5.36016 15.3528C4.44766 14.9588 3.65391 14.4246 2.97891 13.7501C2.30391 13.0751 1.76966 12.2813 1.37616 11.3688C0.982656 10.4563 0.785656 9.48135 0.785156 8.44385C0.785156 7.40635 0.982156 6.43135 1.37616 5.51885C1.77016 4.60635 2.30441 3.8126 2.97891 3.1376C3.65391 2.4626 4.44766 1.92835 5.36016 1.53485C6.27266 1.14135 7.24766 0.944348 8.28516 0.943848C9.32266 0.943848 10.2977 1.14085 11.2102 1.53485C12.1227 1.92885 12.9164 2.4631 13.5914 3.1376C14.2664 3.8126 14.8009 4.60635 15.1949 5.51885C15.5889 6.43135 15.7857 7.40635 15.7852 8.44385C15.7852 9.48135 15.5882 10.4563 15.1942 11.3688C14.8002 12.2813 14.2659 13.0751 13.5914 13.7501C12.9164 14.4251 12.1227 14.9596 11.2102 15.3536C10.2977 15.7476 9.32266 15.9443 8.28516 15.9438ZM8.28516 14.4438C9.96016 14.4438 11.3789 13.8626 12.5414 12.7001C13.7039 11.5376 14.2852 10.1188 14.2852 8.44385C14.2852 6.76885 13.7039 5.3501 12.5414 4.1876C11.3789 3.0251 9.96016 2.44385 8.28516 2.44385C6.61016 2.44385 5.19141 3.0251 4.02891 4.1876C2.86641 5.3501 2.28516 6.76885 2.28516 8.44385C2.28516 10.1188 2.86641 11.5376 4.02891 12.7001C5.19141 13.8626 6.61016 14.4438 8.28516 14.4438Z" fill="#fff"/>
-                        </svg></a>
-                                </div>
-                                <div class="constructor-car-img-box">
-                                    <img src="images/constructor-section-bg.png" alt="constructor-car-img-box">
-                                </div>
+
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="benefits-section">
+            <header class="info-section__header container-2">
+                <div class="info-section__text-block">
+                    <h1 class="info-section__title section-title">преимущества:</h1>
+                    <ul class="info-section__list">
+                        <li class="info-section__list-item">работы</li>
+                        <li class="info-section__list-item">с</li>
+                        <li class="info-section__list-item">нами</li>
+                    </ul>
+                </div>
+                <div class="info-section__image-block">
+                    <img class="info-section__image" src="img/icons/japan-word.svg" alt="Япония so‘zi">
+                </div>
+            </header>
+            <div class="nimadir11">
+                <div class="nimadir3 container-2">
+                    <article class="info-card__item">
+                        <h1 class="info-card__number">18</h1>
+                        <b class="info-card__subtitle">лет возим автомобили с Востока</b>
+                        <div class="info-card__link-wrap nimadir7">
+                            <a href="#" class="info-card__link nimadir9">История</a>
+                            <svg class="info-card__icon" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.28516 11.4438L11.2852 8.44385L8.28516 5.44385L7.23516 6.49385L8.43516 7.69385H5.28516V9.19385H8.43516L7.23516 10.3938L8.28516 11.4438ZM8.28516 15.9438C7.24766 15.9438 6.27266 15.7468 5.36016 15.3528C4.44766 14.9588 3.65391 14.4246 2.97891 13.7501C2.30391 13.0751 1.76966 12.2813 1.37616 11.3688C0.982656 10.4563 0.785656 9.48135 0.785156 8.44385C0.785156 7.40635 0.982156 6.43135 1.37616 5.51885C1.77016 4.60635 2.30441 3.8126 2.97891 3.1376C3.65391 2.4626 4.44766 1.92835 5.36016 1.53485C6.27266 1.14135 7.24766 0.944348 8.28516 0.943848C9.32266 0.943848 10.2977 1.14085 11.2102 1.53485C12.1227 1.92885 12.9164 2.4631 13.5914 3.1376C14.2664 3.8126 14.8009 4.60635 15.1949 5.51885C15.5889 6.43135 15.7857 7.40635 15.7852 8.44385C15.7852 9.48135 15.5882 10.4563 15.1942 11.3688C14.8002 12.2813 14.2659 13.0751 13.5914 13.7501C12.9164 14.4251 12.1227 14.9596 11.2102 15.3536C10.2977 15.7476 9.32266 15.9443 8.28516 15.9438ZM8.28516 14.4438C9.96016 14.4438 11.3789 13.8626 12.5414 12.7001C13.7039 11.5376 14.2852 10.1188 14.2852 8.44385C14.2852 6.76885 13.7039 5.3501 12.5414 4.1876C11.3789 3.0251 9.96016 2.44385 8.28516 2.44385C6.61016 2.44385 5.19141 3.0251 4.02891 4.1876C2.86641 5.3501 2.28516 6.76885 2.28516 8.44385C2.28516 10.1188 2.86641 11.5376 4.02891 12.7001C5.19141 13.8626 6.61016 14.4438 8.28516 14.4438Z"
+                                    fill="#D60000" />
+                            </svg>
+                        </div>
+                    </article>
+                    <article class="info-card__item">
+                        <h1 class="info-card__number">300+</h1>
+                        <b class="info-card__subtitle">постоянных клиентов</b>
+                        <div class="info-card__link-wrap nimadir7">
+                            <a href="#" class="info-card__link nimadir9">Как мы работаем</a>
+                            <svg class="info-card__icon" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.28516 11.4438L11.2852 8.44385L8.28516 5.44385L7.23516 6.49385L8.43516 7.69385H5.28516V9.19385H8.43516L7.23516 10.3938L8.28516 11.4438ZM8.28516 15.9438C7.24766 15.9438 6.27266 15.7468 5.36016 15.3528C4.44766 14.9588 3.65391 14.4246 2.97891 13.7501C2.30391 13.0751 1.76966 12.2813 1.37616 11.3688C0.982656 10.4563 0.785656 9.48135 0.785156 8.44385C0.785156 7.40635 0.982156 6.43135 1.37616 5.51885C1.77016 4.60635 2.30441 3.8126 2.97891 3.1376C3.65391 2.4626 4.44766 1.92835 5.36016 1.53485C6.27266 1.14135 7.24766 0.944348 8.28516 0.943848C9.32266 0.943848 10.2977 1.14085 11.2102 1.53485C12.1227 1.92885 12.9164 2.4631 13.5914 3.1376C14.2664 3.8126 14.8009 4.60635 15.1949 5.51885C15.5889 6.43135 15.7857 7.40635 15.7852 8.44385C15.7852 9.48135 15.5882 10.4563 15.1942 11.3688C14.8002 12.2813 14.2659 13.0751 13.5914 13.7501C12.9164 14.4251 12.1227 14.9596 11.2102 15.3536C10.2977 15.7476 9.32266 15.9443 8.28516 15.9438ZM8.28516 14.4438C9.96016 14.4438 11.3789 13.8626 12.5414 12.7001C13.7039 11.5376 14.2852 10.1188 14.2852 8.44385C14.2852 6.76885 13.7039 5.3501 12.5414 4.1876C11.3789 3.0251 9.96016 2.44385 8.28516 2.44385C6.61016 2.44385 5.19141 3.0251 4.02891 4.1876C2.86641 5.3501 2.28516 6.76885 2.28516 8.44385C2.28516 10.1188 2.86641 11.5376 4.02891 12.7001C5.19141 13.8626 6.61016 14.4438 8.28516 14.4438Z"
+                                    fill="#D60000" />
+                            </svg>
+                        </div>
+                    </article>
+                    <article class="info-card__item letter-wide info-card__item--gallery">
+                        <div class="nimadir10">
+                            <h1 class="info-card__number info-card__number--gallery">2000+</h1>
+                            <b class="info-card__subtitle info-card__subtitle--gallery">
+                                машин уже привезли за годы работы
+                            </b>
+                        </div>
+                        <div class="info-card__link-wrap info-card__link-wrap--gallery">
+                            <a href="#" class="info-card__link info-card__link--gallery nimadir9">Смотреть галерею</a>
+                            <svg class="info-card__icon info-card__icon--gallery" width="16" height="16"
+                                viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.28516 11.4438L11.2852 8.44385L8.28516 5.44385L7.23516 6.49385L8.43516 7.69385H5.28516V9.19385H8.43516L7.23516 10.3938L8.28516 11.4438ZM8.28516 15.9438C7.24766 15.9438 6.27266 15.7468 5.36016 15.3528C4.44766 14.9588 3.65391 14.4246 2.97891 13.7501C2.30391 13.0751 1.76966 12.2813 1.37616 11.3688C0.982656 10.4563 0.785656 9.48135 0.785156 8.44385C0.785156 7.40635 0.982156 6.43135 1.37616 5.51885C1.77016 4.60635 2.30441 3.8126 2.97891 3.1376C3.65391 2.4626 4.44766 1.92835 5.36016 1.53485C6.27266 1.14135 7.24766 0.944348 8.28516 0.943848C9.32266 0.943848 10.2977 1.14085 11.2102 1.53485C12.1227 1.92885 12.9164 2.4631 13.5914 3.1376C14.2664 3.8126 14.8009 4.60635 15.1949 5.51885C15.5889 6.43135 15.7857 7.40635 15.7852 8.44385C15.7852 9.48135 15.5882 10.4563 15.1942 11.3688C14.8002 12.2813 14.2659 13.0751 13.5914 13.7501C12.9164 14.4251 12.1227 14.9596 11.2102 15.3536C10.2977 15.7476 9.32266 15.9443 8.28516 15.9438ZM8.28516 14.4438C9.96016 14.4438 11.3789 13.8626 12.5414 12.7001C13.7039 11.5376 14.2852 10.1188 14.2852 8.44385C14.2852 6.76885 13.7039 5.3501 12.5414 4.1876C11.3789 3.0251 9.96016 2.44385 8.28516 2.44385C6.61016 2.44385 5.19141 3.0251 4.02891 4.1876C2.86641 5.3501 2.28516 6.76885 2.28516 8.44385C2.28516 10.1188 2.86641 11.5376 4.02891 12.7001C5.19141 13.8626 6.61016 14.4438 8.28516 14.4438Z"
+                                    fill="#D60000" />
+                            </svg>
+                        </div>
+                        <img class="japan-map" src="img/japan-map.svg" alt="">
+                        <img class="border" src="img/icons/img.svg" alt="">
+                    </article>
+                    <article class="info-card__item">
+                        <h1 class="info-card__number">0</h1>
+                        <b class="info-card__subtitle">негативных отзывов</b>
+                        <div class="info-card__link-wrap nimadir7">
+                            <a href="#" class="info-card__link nimadir9">Читать отзывы</a>
+                            <svg class="info-card__icon" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.28516 11.4438L11.2852 8.44385L8.28516 5.44385L7.23516 6.49385L8.43516 7.69385H5.28516V9.19385H8.43516L7.23516 10.3938L8.28516 11.4438ZM8.28516 15.9438C7.24766 15.9438 6.27266 15.7468 5.36016 15.3528C4.44766 14.9588 3.65391 14.4246 2.97891 13.7501C2.30391 13.0751 1.76966 12.2813 1.37616 11.3688C0.982656 10.4563 0.785656 9.48135 0.785156 8.44385C0.785156 7.40635 0.982156 6.43135 1.37616 5.51885C1.77016 4.60635 2.30441 3.8126 2.97891 3.1376C3.65391 2.4626 4.44766 1.92835 5.36016 1.53485C6.27266 1.14135 7.24766 0.944348 8.28516 0.943848C9.32266 0.943848 10.2977 1.14085 11.2102 1.53485C12.1227 1.92885 12.9164 2.4631 13.5914 3.1376C14.2664 3.8126 14.8009 4.60635 15.1949 5.51885C15.5889 6.43135 15.7857 7.40635 15.7852 8.44385C15.7852 9.48135 15.5882 10.4563 15.1942 11.3688C14.8002 12.2813 14.2659 13.0751 13.5914 13.7501C12.9164 14.4251 12.1227 14.9596 11.2102 15.3536C10.2977 15.7476 9.32266 15.9443 8.28516 15.9438ZM8.28516 14.4438C9.96016 14.4438 11.3789 13.8626 12.5414 12.7001C13.7039 11.5376 14.2852 10.1188 14.2852 8.44385C14.2852 6.76885 13.7039 5.3501 12.5414 4.1876C11.3789 3.0251 9.96016 2.44385 8.28516 2.44385C6.61016 2.44385 5.19141 3.0251 4.02891 4.1876C2.86641 5.3501 2.28516 6.76885 2.28516 8.44385C2.28516 10.1188 2.86641 11.5376 4.02891 12.7001C5.19141 13.8626 6.61016 14.4438 8.28516 14.4438Z"
+                                    fill="#D60000" />
+                            </svg>
+                        </div>
+                    </article>
+                    <div class="order-btn-wrapper">
+                        <button class="order-btn">заказать авто</button>
                     </div>
                 </div>
-            </section>
-        </main>
-        <footer class="footer">
+                <div class="index-advan-btn">
+                    <a href="#!" class="red-btn">заказать авто</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="info-section">
+            <header class="info-section__header container">
+                <h1 class="info-section__title">информационный раздел</h1>
+                <ul class="info-section__nav">
+                    <div class="nimadir8">
+                        <li class="info-section__nav-item">новости</li>
+                        <li class="info-section__nav-item">статьи</li>
+                    </div>
+                    <li class="info-section__nav-item">спецпредложения</li>
+                </ul>
+            </header>
+
+            <div class="info-section__articles container">
+                <article class="info-card">
+                    <div class="info-card__image">
+                        <img src="img/product-img/place-work-1.png" alt="">
+                    </div>
+                    <div class="info-card__content">
+                        <h2 class="info-card__title">Рынок или аукцион? Каковы плюсы и минусы покупки автомобиля на
+                            аукционах?</h2>
+                        <p class="info-card__text">
+                            Главный плюс — гарантия покупки автомобиля именно в том состоянии, которое вам обещают.
+                            Аукционная оценка — аспект, выгодно отличающий аукцион от автомобильного рынка.
+                        </p>
+                        <div class="info-card__link-wrap">
+                            <a href="#" class="info-card__link">Читать подробнее</a>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.28516 11.4438L11.2852 8.44385L8.28516 5.44385L7.23516 6.49385L8.43516 7.69385H5.28516V9.19385H8.43516L7.23516 10.3938L8.28516 11.4438ZM8.28516 15.9438C7.24766 15.9438 6.27266 15.7468 5.36016 15.3528C4.44766 14.9588 3.65391 14.4246 2.97891 13.7501C2.30391 13.0751 1.76966 12.2813 1.37616 11.3688C0.982656 10.4563 0.785656 9.48135 0.785156 8.44385C0.785156 7.40635 0.982156 6.43135 1.37616 5.51885C1.77016 4.60635 2.30441 3.8126 2.97891 3.1376C3.65391 2.4626 4.44766 1.92835 5.36016 1.53485C6.27266 1.14135 7.24766 0.944348 8.28516 0.943848C9.32266 0.943848 10.2977 1.14085 11.2102 1.53485C12.1227 1.92885 12.9164 2.4631 13.5914 3.1376C14.2664 3.8126 14.8009 4.60635 15.1949 5.51885C15.5889 6.43135 15.7857 7.40635 15.7852 8.44385C15.7852 9.48135 15.5882 10.4563 15.1942 11.3688C14.8002 12.2813 14.2659 13.0751 13.5914 13.7501C12.9164 14.4251 12.1227 14.9596 11.2102 15.3536C10.2977 15.7476 9.32266 15.9443 8.28516 15.9438ZM8.28516 14.4438C9.96016 14.4438 11.3789 13.8626 12.5414 12.7001C13.7039 11.5376 14.2852 10.1188 14.2852 8.44385C14.2852 6.76885 13.7039 5.3501 12.5414 4.1876C11.3789 3.0251 9.96016 2.44385 8.28516 2.44385C6.61016 2.44385 5.19141 3.0251 4.02891 4.1876C2.86641 5.3501 2.28516 6.76885 2.28516 8.44385C2.28516 10.1188 2.86641 11.5376 4.02891 12.7001C5.19141 13.8626 6.61016 14.4438 8.28516 14.4438Z"
+                                    fill="#D60000" />
+                            </svg>
+
+                        </div>
+                    </div>
+                </article>
+
+                <article class="info-card">
+                    <div class="info-card__image">
+                        <img src="img/product-img/place-work-2.png" alt="">
+                    </div>
+                    <div class="info-card__content">
+                        <h2 class="info-card__title auction-heading">Как проходят торги на аукционе?</h2>
+                        <p class="info-card__text auction-description">
+                            Перед началом торгов за несколько дней или часов все заинтересованные участники
+                            (авторизованные
+                            на аукционах дилеры) вводят в систему торгов свои ставки — определяют максимальную сумму...
+                        </p>
+                        <div class="info-card__link-wrap">
+                            <a href="#" class="info-card__link">Читать подробнее</a>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.28516 11.4438L11.2852 8.44385L8.28516 5.44385L7.23516 6.49385L8.43516 7.69385H5.28516V9.19385H8.43516L7.23516 10.3938L8.28516 11.4438ZM8.28516 15.9438C7.24766 15.9438 6.27266 15.7468 5.36016 15.3528C4.44766 14.9588 3.65391 14.4246 2.97891 13.7501C2.30391 13.0751 1.76966 12.2813 1.37616 11.3688C0.982656 10.4563 0.785656 9.48135 0.785156 8.44385C0.785156 7.40635 0.982156 6.43135 1.37616 5.51885C1.77016 4.60635 2.30441 3.8126 2.97891 3.1376C3.65391 2.4626 4.44766 1.92835 5.36016 1.53485C6.27266 1.14135 7.24766 0.944348 8.28516 0.943848C9.32266 0.943848 10.2977 1.14085 11.2102 1.53485C12.1227 1.92885 12.9164 2.4631 13.5914 3.1376C14.2664 3.8126 14.8009 4.60635 15.1949 5.51885C15.5889 6.43135 15.7857 7.40635 15.7852 8.44385C15.7852 9.48135 15.5882 10.4563 15.1942 11.3688C14.8002 12.2813 14.2659 13.0751 13.5914 13.7501C12.9164 14.4251 12.1227 14.9596 11.2102 15.3536C10.2977 15.7476 9.32266 15.9443 8.28516 15.9438ZM8.28516 14.4438C9.96016 14.4438 11.3789 13.8626 12.5414 12.7001C13.7039 11.5376 14.2852 10.1188 14.2852 8.44385C14.2852 6.76885 13.7039 5.3501 12.5414 4.1876C11.3789 3.0251 9.96016 2.44385 8.28516 2.44385C6.61016 2.44385 5.19141 3.0251 4.02891 4.1876C2.86641 5.3501 2.28516 6.76885 2.28516 8.44385C2.28516 10.1188 2.86641 11.5376 4.02891 12.7001C5.19141 13.8626 6.61016 14.4438 8.28516 14.4438Z"
+                                    fill="#D60000" />
+                            </svg>
+
+                        </div>
+                    </div>
+                </article>
+
+                <article class="import-difference-card">
+                    <div class="info-card__header">
+                        <h2 class="info-card__title">Ввоз на физическое и юридическое лицо — в чем разница?</h2>
+                    </div>
+                    <div class="info-card__footer">
+                        <a class="info-card__link" href="#">Читать подробнее</a>
+                        <svg class="info-card__icon" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M8.28516 11.4438L11.2852 8.44385L8.28516 5.44385L7.23516 6.49385L8.43516 7.69385H5.28516V9.19385H8.43516L7.23516 10.3938L8.28516 11.4438ZM8.28516 15.9438C7.24766 15.9438 6.27266 15.7468 5.36016 15.3528C4.44766 14.9588 3.65391 14.4246 2.97891 13.7501C2.30391 13.0751 1.76966 12.2813 1.37616 11.3688C0.982656 10.4563 0.785656 9.48135 0.785156 8.44385C0.785156 7.40635 0.982156 6.43135 1.37616 5.51885C1.77016 4.60635 2.30441 3.8126 2.97891 3.1376C3.65391 2.4626 4.44766 1.92835 5.36016 1.53485C6.27266 1.14135 7.24766 0.944348 8.28516 0.943848C9.32266 0.943848 10.2977 1.14085 11.2102 1.53485C12.1227 1.92885 12.9164 2.4631 13.5914 3.1376C14.2664 3.8126 14.8009 4.60635 15.1949 5.51885C15.5889 6.43135 15.7857 7.40635 15.7852 8.44385C15.7852 9.48135 15.5882 10.4563 15.1942 11.3688C14.8002 12.2813 14.2659 13.0751 13.5914 13.7501C12.9164 14.4251 12.1227 14.9596 11.2102 15.3536C10.2977 15.7476 9.32266 15.9443 8.28516 15.9438ZM8.28516 14.4438C9.96016 14.4438 11.3789 13.8626 12.5414 12.7001C13.7039 11.5376 14.2852 10.1188 14.2852 8.44385C14.2852 6.76885 13.7039 5.3501 12.5414 4.1876C11.3789 3.0251 9.96016 2.44385 8.28516 2.44385C6.61016 2.44385 5.19141 3.0251 4.02891 4.1876C2.86641 5.3501 2.28516 6.76885 2.28516 8.44385C2.28516 10.1188 2.86641 11.5376 4.02891 12.7001C5.19141 13.8626 6.61016 14.4438 8.28516 14.4438Z"
+                                fill="#D60000" />
+                        </svg>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="row justify-content-end">
+                    <div class="col-lg-11 end-col">
+                        <div class="end-slide">
+                            <div class="swiper special-offers__swiper">
+                                <div class="swiper-wrapper">
+
+                                    <!-- Slide 1 -->
+                                    <div class="swiper-slide">
+                                        <div class="end-block">
+                                            <img class="end-round" src="img/index-about-round.png" alt="">
+                                            <div class="special-offer">
+                                                <div class="special-offer__content">
+                                                    <div class="special-offer__circle">
+                                                        <h2 class="special-offer__title">
+                                                            Специальное предложение для "авторазборов"!
+                                                        </h2>
+                                                        <p class="special-offer__desc">
+                                                            Ввоз автомобилей в полностью разобранном виде на паллете.
+                                                            Способ ввоза автомобилей в полностью разобранном виде
+                                                            используется
+                                                            исключительно для продажи контрактных автозапчастей.
+                                                        </p>
+                                                        <div class="info-card__footer">
+                                                            <a class="info-card__link" href="#">Читать подробнее</a>
+                                                            <svg class="info-card__icon" width="16" height="16"
+                                                                viewBox="0 0 16 16" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M8.28516 11.4438L11.2852 8.44385L8.28516 5.44385L7.23516 6.49385L8.43516 7.69385H5.28516V9.19385H8.43516L7.23516 10.3938L8.28516 11.4438ZM8.28516 15.9438C7.24766 15.9438 6.27266 15.7468 5.36016 15.3528C4.44766 14.9588 3.65391 14.4246 2.97891 13.7501C2.30391 13.0751 1.76966 12.2813 1.37616 11.3688C0.982656 10.4563 0.785656 9.48135 0.785156 8.44385C0.785156 7.40635 0.982156 6.43135 1.37616 5.51885C1.77016 4.60635 2.30441 3.8126 2.97891 3.1376C3.65391 2.4626 4.44766 1.92835 5.36016 1.53485C6.27266 1.14135 7.24766 0.944348 8.28516 0.943848C9.32266 0.943848 10.2977 1.14085 11.2102 1.53485C12.1227 1.92885 12.9164 2.4631 13.5914 3.1376C14.2664 3.8126 14.8009 4.60635 15.1949 5.51885C15.5889 6.43135 15.7857 7.40635 15.7852 8.44385C15.7852 9.48135 15.5882 10.4563 15.1942 11.3688C14.8002 12.2813 14.2659 13.0751 13.5914 13.7501C12.9164 14.4251 12.1227 14.9596 11.2102 15.3536C10.2977 15.7476 9.32266 15.9443 8.28516 15.9438ZM8.28516 14.4438C9.96016 14.4438 11.3789 13.8626 12.5414 12.7001C13.7039 11.5376 14.2852 10.1188 14.2852 8.44385C14.2852 6.76885 13.7039 5.3501 12.5414 4.1876C11.3789 3.0251 9.96016 2.44385 8.28516 2.44385C6.61016 2.44385 5.19141 3.0251 4.02891 4.1876C2.86641 5.3501 2.28516 6.76885 2.28516 8.44385C2.28516 10.1188 2.86641 11.5376 4.02891 12.7001C5.19141 13.8626 6.61016 14.4438 8.28516 14.4438Z"
+                                                                    fill="#D60000" />
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="end-slide-content">
+                                                <img src="img/index-end.png" alt="Car">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slide 2 -->
+                                    <div class="swiper-slide">
+                                        <div class="end-block">
+                                            <img class="end-round" src="img/index-about-round.png" alt="">
+                                            <div class="special-offer">
+                                                <div class="special-offer__content">
+                                                    <div class="special-offer__circle">
+                                                        <h2 class="special-offer__title">
+                                                            Специальное предложение для "авторазборов"!
+                                                        </h2>
+                                                        <p class="special-offer__desc">
+                                                            Ввоз автомобилей в полностью разобранном виде на паллете.
+                                                            Способ ввоза автомобилей в полностью разобранном виде
+                                                            используется
+                                                            исключительно для продажи контрактных автозапчастей.
+                                                        </p>
+                                                        <div class="info-card__footer">
+                                                            <a class="info-card__link" href="#">Читать подробнее</a>
+                                                            <svg class="info-card__icon" width="16" height="16"
+                                                                viewBox="0 0 16 16" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M8.28516 11.4438L11.2852 8.44385L8.28516 5.44385L7.23516 6.49385L8.43516 7.69385H5.28516V9.19385H8.43516L7.23516 10.3938L8.28516 11.4438ZM8.28516 15.9438C7.24766 15.9438 6.27266 15.7468 5.36016 15.3528C4.44766 14.9588 3.65391 14.4246 2.97891 13.7501C2.30391 13.0751 1.76966 12.2813 1.37616 11.3688C0.982656 10.4563 0.785656 9.48135 0.785156 8.44385C0.785156 7.40635 0.982156 6.43135 1.37616 5.51885C1.77016 4.60635 2.30441 3.8126 2.97891 3.1376C3.65391 2.4626 4.44766 1.92835 5.36016 1.53485C6.27266 1.14135 7.24766 0.944348 8.28516 0.943848C9.32266 0.943848 10.2977 1.14085 11.2102 1.53485C12.1227 1.92885 12.9164 2.4631 13.5914 3.1376C14.2664 3.8126 14.8009 4.60635 15.1949 5.51885C15.5889 6.43135 15.7857 7.40635 15.7852 8.44385C15.7852 9.48135 15.5882 10.4563 15.1942 11.3688C14.8002 12.2813 14.2659 13.0751 13.5914 13.7501C12.9164 14.4251 12.1227 14.9596 11.2102 15.3536C10.2977 15.7476 9.32266 15.9443 8.28516 15.9438ZM8.28516 14.4438C9.96016 14.4438 11.3789 13.8626 12.5414 12.7001C13.7039 11.5376 14.2852 10.1188 14.2852 8.44385C14.2852 6.76885 13.7039 5.3501 12.5414 4.1876C11.3789 3.0251 9.96016 2.44385 8.28516 2.44385C6.61016 2.44385 5.19141 3.0251 4.02891 4.1876C2.86641 5.3501 2.28516 6.76885 2.28516 8.44385C2.28516 10.1188 2.86641 11.5376 4.02891 12.7001C5.19141 13.8626 6.61016 14.4438 8.28516 14.4438Z"
+                                                                    fill="#D60000" />
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="end-slide-content">
+                                                <img src="img/index-end.png" alt="Car">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 3 slide -->
+                                    <div class="swiper-slide">
+                                        <div class="end-block">
+                                            <img class="end-round" src="img/index-about-round.png" alt="">
+                                            <div class="special-offer">
+                                                <div class="special-offer__content">
+                                                    <div class="special-offer__circle">
+                                                        <h2 class="special-offer__title">
+                                                            Специальное предложение для "авторазборов"!
+                                                        </h2>
+                                                        <p class="special-offer__desc">
+                                                            Ввоз автомобилей в полностью разобранном виде на паллете.
+                                                            Способ ввоза автомобилей в полностью разобранном виде
+                                                            используется
+                                                            исключительно для продажи контрактных автозапчастей.
+                                                        </p>
+                                                        <div class="info-card__footer">
+                                                            <a class="info-card__link" href="#">Читать подробнее</a>
+                                                            <svg class="info-card__icon" width="16" height="16"
+                                                                viewBox="0 0 16 16" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M8.28516 11.4438L11.2852 8.44385L8.28516 5.44385L7.23516 6.49385L8.43516 7.69385H5.28516V9.19385H8.43516L7.23516 10.3938L8.28516 11.4438ZM8.28516 15.9438C7.24766 15.9438 6.27266 15.7468 5.36016 15.3528C4.44766 14.9588 3.65391 14.4246 2.97891 13.7501C2.30391 13.0751 1.76966 12.2813 1.37616 11.3688C0.982656 10.4563 0.785656 9.48135 0.785156 8.44385C0.785156 7.40635 0.982156 6.43135 1.37616 5.51885C1.77016 4.60635 2.30441 3.8126 2.97891 3.1376C3.65391 2.4626 4.44766 1.92835 5.36016 1.53485C6.27266 1.14135 7.24766 0.944348 8.28516 0.943848C9.32266 0.943848 10.2977 1.14085 11.2102 1.53485C12.1227 1.92885 12.9164 2.4631 13.5914 3.1376C14.2664 3.8126 14.8009 4.60635 15.1949 5.51885C15.5889 6.43135 15.7857 7.40635 15.7852 8.44385C15.7852 9.48135 15.5882 10.4563 15.1942 11.3688C14.8002 12.2813 14.2659 13.0751 13.5914 13.7501C12.9164 14.4251 12.1227 14.9596 11.2102 15.3536C10.2977 15.7476 9.32266 15.9443 8.28516 15.9438ZM8.28516 14.4438C9.96016 14.4438 11.3789 13.8626 12.5414 12.7001C13.7039 11.5376 14.2852 10.1188 14.2852 8.44385C14.2852 6.76885 13.7039 5.3501 12.5414 4.1876C11.3789 3.0251 9.96016 2.44385 8.28516 2.44385C6.61016 2.44385 5.19141 3.0251 4.02891 4.1876C2.86641 5.3501 2.28516 6.76885 2.28516 8.44385C2.28516 10.1188 2.86641 11.5376 4.02891 12.7001C5.19141 13.8626 6.61016 14.4438 8.28516 14.4438Z"
+                                                                    fill="#D60000" />
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="end-slide-content">
+                                                <img src="img/index-end.png" alt="Car">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 4 slide -->
+                                    <div class="swiper-slide">
+                                        <div class="end-block">
+                                            <img class="end-round" src="img/index-about-round.png" alt="">
+                                            <div class="special-offer">
+                                                <div class="special-offer__content">
+                                                    <div class="special-offer__circle">
+                                                        <h2 class="special-offer__title">
+                                                            Специальное предложение для "авторазборов"!
+                                                        </h2>
+                                                        <p class="special-offer__desc">
+                                                            Ввоз автомобилей в полностью разобранном виде на паллете.
+                                                            Способ ввоза автомобилей в полностью разобранном виде
+                                                            используется
+                                                            исключительно для продажи контрактных автозапчастей.
+                                                        </p>
+                                                        <div class="info-card__footer">
+                                                            <a class="info-card__link" href="#">Читать подробнее</a>
+                                                            <svg class="info-card__icon" width="16" height="16"
+                                                                viewBox="0 0 16 16" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M8.28516 11.4438L11.2852 8.44385L8.28516 5.44385L7.23516 6.49385L8.43516 7.69385H5.28516V9.19385H8.43516L7.23516 10.3938L8.28516 11.4438ZM8.28516 15.9438C7.24766 15.9438 6.27266 15.7468 5.36016 15.3528C4.44766 14.9588 3.65391 14.4246 2.97891 13.7501C2.30391 13.0751 1.76966 12.2813 1.37616 11.3688C0.982656 10.4563 0.785656 9.48135 0.785156 8.44385C0.785156 7.40635 0.982156 6.43135 1.37616 5.51885C1.77016 4.60635 2.30441 3.8126 2.97891 3.1376C3.65391 2.4626 4.44766 1.92835 5.36016 1.53485C6.27266 1.14135 7.24766 0.944348 8.28516 0.943848C9.32266 0.943848 10.2977 1.14085 11.2102 1.53485C12.1227 1.92885 12.9164 2.4631 13.5914 3.1376C14.2664 3.8126 14.8009 4.60635 15.1949 5.51885C15.5889 6.43135 15.7857 7.40635 15.7852 8.44385C15.7852 9.48135 15.5882 10.4563 15.1942 11.3688C14.8002 12.2813 14.2659 13.0751 13.5914 13.7501C12.9164 14.4251 12.1227 14.9596 11.2102 15.3536C10.2977 15.7476 9.32266 15.9443 8.28516 15.9438ZM8.28516 14.4438C9.96016 14.4438 11.3789 13.8626 12.5414 12.7001C13.7039 11.5376 14.2852 10.1188 14.2852 8.44385C14.2852 6.76885 13.7039 5.3501 12.5414 4.1876C11.3789 3.0251 9.96016 2.44385 8.28516 2.44385C6.61016 2.44385 5.19141 3.0251 4.02891 4.1876C2.86641 5.3501 2.28516 6.76885 2.28516 8.44385C2.28516 10.1188 2.86641 11.5376 4.02891 12.7001C5.19141 13.8626 6.61016 14.4438 8.28516 14.4438Z"
+                                                                    fill="#D60000" />
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="end-slide-content">
+                                                <img src="img/index-end.png" alt="Car">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pagination -->
+                                <div class="swiper-pagination special-offers__pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__main">
+            <!-- Logo -->
             <div class="footer-top">
-                <div class="red-line"></div>
-                <div class="assorti-footer-logo">
-                    <img src="images/Assorti-footer-logo.svg" alt="Assorti-footer-logo">
+                <div class="red__line"></div>
+                <div class="footer__logo">
+                    <img class="nimadir13" src="img/logo.svg" alt="Logo">
+                    <img class="nimadir12" src="img/logo-4.svg" alt="">
                 </div>
-                <div class="red-line right"></div>
-                <div class="menu-btn">
-                    <button class="menu-btn">
-                        <img src="images/menu-icon.svg" alt="menu">
-                    </button>
-                </div>
-            </div>
-            <div class="container">
-    
-                <div class="footer-left">
-                    <div class="footer-link-box">
-                        <a class="footer-link location-link" href="#!">
-                            <img src="images/icons/JPS-icon.svg" alt="JPS">
-                            <span>656067, Россия, 
-                            Алтайский край, г. Барнаул, 
-                            ул. Власихинская 141, оф. 9</span>
-                        </a>
-                        <a class="footer-link vk" href="#!">
-                            <img src="images/icons/vk-logo.svg" alt="vk-logo">
-                            @assortimotors
-                        </a>
-                    </div>
-                    <div class="footer-link-box second">
-                        <a href="#!" class="footer-link">
-                            <img src="images/icons/telephne-icon.svg" alt="telephne-icon"> +7 (3852) 69-79-09
-                        </a>
-                        <a href="#!" class="footer-link">
-                            <img src="images/icons/whatsapp-icon.svg" alt="whatsapp-icon"> +7(913) 247-7012(WhatsApp)
-                        </a>
-                        <a href="#!" class="footer-link">
-                            <img src="images/icons/telephne-icon.svg" alt="telephne-icon"> +7(952) 006-0230
-                        </a>
-                        <a href="#!" class="footer-link">
-                            <img src="images/icons/skype-icon.svg" alt="skype-icon"> Skype: asmoto_vy
-                        </a>
-                        <a class="footer-link email" href="#!">
-                            <img src="images/icons/email-icon.svg" alt="">zakaz@assortimotors.ru
-                        </a>
-                        <a class="footer-link email" href="#!">
-                            <img src="images/icons/email-icon.svg" alt="">yashkin@assortimotors.ru
-                        </a>
-                    </div>
-                </div>
-                <div class="footer-right">
-                    <div class="footer-right-first">
-                        <h2 class="footer-title">направления работы</h2>
-                        <a class="footer-link" href="#!">Автомобили с аукционов Японии</a>
-                        <a class="footer-link" href="#!">Автомобили с аукционов Ю.Кореи</a>
-                        <a class="footer-link" href="#!">Мотоциклы с аукционов Японии</a>
-                        <a class="footer-link" href="#!">Автозапчасти из Японии</a>
-                    </div>
-                    <div class="footer-right-first">
-                        <h2 class="footer-title">клиентам</h2>
-                        <a class="footer-link" href="#!">Аукционы онлайн</a>
-                        <a class="footer-link" href="#!">Статистика продаж</a>
-                        <a class="footer-link" href="#!">Каталог автомобилей</a>
-                        <a class="footer-link" href="#!">Полезные ссылки</a>
-                        <a class="footer-link" href="#!">Доставка и оплата</a>
-                    </div>
-                    <div class="footer-right-first third">
-                        <h2 class="footer-title">О компании</h2>
-                        <a class="footer-link" href="#!">История компании</a>
-                        <a class="footer-link" href="#!">Что привозили</a>
-                        <a class="footer-link" href="#!">Отзывы</a>
-                        <a class="footer-link" href="#!">Схема работы</a>
-                        <a class="footer-link" href="#!">FAQ</a>
-                    </div>
-                    <div class="footer-right-first last">
-                        <h2 class="footer-title">статьи</h2>
-                        <a class="footer-link" href="#!">Новости</a>
-                        <a class="footer-link" href="#!">Акции</a>
-                        <a class="footer-link" href="#!">Статьи</a>
-                    </div>
+                <div class="red__line"></div>
+                <div class="profile">
+                    <img src="img/icons/3-nuqta.svg" alt="">
                 </div>
             </div>
-        </footer>
-        <div class="footer-bottom">
-            <div class="container">
-                <a class="footer-link bottom" href="#!">© Copyright 1999 - 2023</a>
-                <div class="footer-bottom-right">
-                    <a class="footer-link bottom" href="#!">
-                        Политика обработки ПД
-                    </a>
-                    <a class="footer-link bottom" href="#!">
-                        Developed by StoServisov.ru
-                    </a>
+            <!-- Chap qism -->
+            <div class="footer__orab-turuvchi container">
+                <div class="footer__chap-qism">
+                    <div class="footer__left">
+                        <ul class="footer__contacts">
+                            <li>
+                                <img src="img/icons/location.svg" alt="location">
+                                656067, Россия, Алтайский край, г. Барнаул, ул. Власихинская 141, оф. 9
+                            </li>
+                            <li class="nimadir">
+                                <img src="img/icons/wk.svg" alt="vk">
+                                @assortimotors
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- O‘rta qism: Aloqa -->
+                    <div class="footer__center">
+                        <ul class="footer__phones">
+                            <li>
+                                <img src="img/icons/phone.svg" alt="phone">
+                                +7 (3852) 69-79-09
+                            </li>
+                            <li>
+                                <img src="img/icons/whatsapp.svg" alt="whatsapp">
+                                +7(913) 247-7012 (WhatsApp)
+                            </li>
+                            <li>
+                                <img src="img/icons/phone.svg" alt="phone">
+                                +7(952) 006-0230
+                            </li>
+                            <li>
+                                <img src="img/icons/skype.svg" alt="skype">
+                                Skype: asmoto_vy
+                            </li>
+                            <li>
+                                <img src="img/icons/mail.svg" alt="mail">
+                                zakaz@assortimotors.ru
+                            </li>
+                            <li>
+                                <img src="img/icons/mail.svg" alt="mail">
+                                yashkin@assortimotors.ru
+                            </li>
+                            <li class="nimadir nimadir1">
+                                <img src="img/icons/wk.svg" alt="vk">
+                                @assortimotors
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Yo‘nalishlar -->
+                <div class="footer__sections">
+                    <div class="footer__column first">
+                        <h4>НАПРАВЛЕНИЯ РАБОТЫ</h4>
+                        <ul>
+                            <li>Автомобили с аукционов Японии</li>
+                            <li>Автомобили с аукционов Ю.Корея</li>
+                            <li>Мотоциклы с аукционов Японии</li>
+                            <li>Автозапчасти из Японии</li>
+                        </ul>
+                    </div>
+                    <div class="footer__column second">
+                        <h4>КЛИЕНТАМ</h4>
+                        <ul>
+                            <li>Аукционы онлайн</li>
+                            <li>Статистика продаж</li>
+                            <li>Каталог автомобилей</li>
+                            <li>Полезные ссылки</li>
+                            <li>Доставка и оплата</li>
+                        </ul>
+                    </div>
+                    <div class="footer__column third">
+                        <h4>О КОМПАНИИ</h4>
+                        <ul>
+                            <li>История компании</li>
+                            <li>Что привозили</li>
+                            <li>Отзывы</li>
+                            <li>Схема работы</li>
+                            <li>FAQ</li>
+                        </ul>
+                    </div>
+                    <div class="footer__column fourth">
+                        <h4>СТАТЬИ</h4>
+                        <ul>
+                            <li>Новости</li>
+                            <li>Акции</li>
+                            <li>Статьи</li>
+                        </ul>
+                        <h4 class="h4">КОНТАКТЫ</h4>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="js/script.js"></script>
+
+        <!-- Pastki qism -->
+        <div class="footer__bottom">
+            <div class="footer__bottom-orab container">
+                <div class="footer__copy">
+                    © Copyright 1999 - 2023
+                </div>
+                <div class="second__orab-turuvchi">
+                    <div class="footer__copy">
+                        Политика обработки ПД
+                    </div>
+                    <div class="footer__copy">
+                        Developed by <a href="#">StoSerisov.ru</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- js qismi -->
+    <script src="bootstrap-5.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>

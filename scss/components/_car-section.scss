@@ -1,0 +1,218 @@
+.main-sec {
+    position: relative;
+    padding-top: 15px;
+    background-image: url('../img/index-bg.png');
+    background-repeat: no-repeat;
+    background-position: top right 100px;
+}
+
+.main-sec .main-col {
+    position: relative;
+    margin-top: -140px;
+}
+
+.main-sec .title h1 {
+    font-weight: 900;
+    font-size: 140px;
+    line-height: 84.52%;
+    letter-spacing: -0.16em;
+    text-transform: uppercase;
+    color: #D60000;
+    margin-left: 60px;
+    margin-bottom: 120px;
+}
+
+.main-sec .main-text {
+    max-width: 113px;
+    margin-left: 60px;
+    margin-right: 35px;
+    text-align: start;
+    margin-top: 183px;
+}
+
+.main-sec .main-text p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.main-sec .main-word h3 {
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #000;
+    border: 7px solid #000;
+    height: 545px;
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+    width: 165px;
+    left: 120px;
+    right: 0;
+    top: 32%;
+    display: flex;
+    gap: 10px;
+    text-align: start;
+    padding-top: 30px;
+}
+
+.main-sec .main-btn {
+    padding: 20px 0;
+    background: #fff;
+    position: absolute;
+    right: -78px;
+    bottom: 20px;
+    z-index: 100;
+}
+
+.main-sec .main-btn a {
+    width: 217px;
+}
+
+.main-sec .main-content {
+    margin-top: -95px;
+}
+
+.main-content .meida-slide-img {
+    display: none;
+}
+
+.main-sec .main-slide {
+    position: relative;
+    overflow: hidden;
+}
+
+.main-slide .swiper-slide img {
+    width: 100%;
+    height: 470px;
+}
+
+.main-slide .pagination-container {
+    width: 100%;
+}
+
+.main-slide .swiper-pagination2 {
+    position: absolute;
+    right: 20px;
+    bottom: 35px;
+    text-align: right;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 30px;
+    z-index: 2;
+}
+
+.main-slide .swiper-pagination2 .swiper-pagination-current {
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: -0.13em;
+    color: #D60000;
+    width: 55px;
+    text-align: center;
+    position: relative;
+}
+
+.main-slide .swiper-pagination2 .swiper-pagination-current::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 65px;
+    height: 4px;
+    background: #D60000;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.main-slide .swiper-pagination2 .swiper-pagination-current::after {
+    content: "";
+    position: absolute;
+    right: -35px;
+    bottom: 2px;
+    background: #000;
+    width: 70px;
+    height: 1px;
+    transform: rotate(-72deg);
+}
+
+.main-slide .swiper-pagination2 .swiper-pagination-total {
+    font-size: 12px;
+    line-height: 150%;
+    color: #000000;
+    opacity: 0.6;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.main-slide .swiper-pagination2 .swiper-pagination-total::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 1px;
+    opacity: 0.6;
+    position: absolute;
+    right: -9px;
+    bottom: -9px;
+    background: #000000;
+}
+
+
+.main-sec .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 40px;
+}
+
+.main-sec .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    background: #000000;
+    opacity: 0.5;
+    margin: 0 15px;
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #000;
+    display: inline-block;
+    position: relative;
+}
+
+.main-sec .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -4px;
+    top: -4px;
+    border: 1px solid #000;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: .3s all ease;
+}
+
+.main-sec .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    opacity: 1 !important;
+}
+
+.main-sec .swiper-pagination-bullet.swiper-pagination-bullet-active::after {
+    opacity: 1 !important;
+}
+
+.col-lg-4 {
+    display: flex;
+}
+
+.break-word>* {
+    writing-mode: vertical-rl;
+    /* ustunga aylantiradi */
+    text-orientation: upright;
+    /* harflarni to‘g‘ri turadigan qiladi */
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 96%;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: start;
+
+}

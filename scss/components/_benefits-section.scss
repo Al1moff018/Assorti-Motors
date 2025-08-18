@@ -1,0 +1,160 @@
+.benefits-section {
+    background: url(../../img/sircle-bc.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    .info-section__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // margin-bottom: 108px;
+    }
+
+    .info-section__text-block {
+        .section-title {
+            line-height: normal;
+            margin-bottom: 0 !important;
+        }
+    }
+
+    .info-section__list {
+        display: flex;
+        gap: 25px;
+
+        .info-section__list-item {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 180%;
+            letter-spacing: 7px;
+        }
+    }
+
+    .info-section__image-block {
+        padding: 42.5px 10px;
+        border: 2px solid black;
+        border-radius: 50px;
+
+        .info-section__image {}
+    }
+}
+
+.nimadir3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .info-card__item {
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .info-card__number {
+            font-weight: 900;
+            font-size: 100px;
+            line-height: 85%;
+            text-transform: uppercase;
+            margin-bottom: 26px;
+            letter-spacing: -15px;
+        }
+
+        .info-card__subtitle {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 120%;
+        }
+    }
+}
+
+.info-card__item--gallery {
+    .info-card__content {
+        color: #D60000;
+    }
+}
+
+.info-card__item--gallery {
+    position: relative;
+    z-index: 1;
+}
+
+.border {
+    position: absolute;
+    top: -50px;
+    right: -35px;
+    z-index: -1;
+}
+
+.japan-map {
+    position: absolute;
+    bottom: -320px;
+    right: -145px;
+    opacity: 1;
+    z-index: -1;
+    transform: rotate(2deg);
+}
+
+.index-advan-btn {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 90px;
+    width: 217px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.index-advan-btn {
+    padding: 20px 0;
+    background: #fff;
+}
+
+.index-advan-btn a {
+    width: 217px;
+}
+
+.red-btn {
+    font-family: 'Plumb-medium', sans-serif;
+    background: #D60000;
+    height: 50px;
+    border: none;
+    width: 298px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 79.4%;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #D60000;
+    transition: all .2s linear;
+}
+
+.red-btn:hover {
+    background: #fff;
+    color: #D60000;
+}
+
+.make-meeting-sec .make-meeting .red-btn {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 79.4%;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.make-meeting-sec .make-meeting .red-btn:hover {
+    color: #D60000;
+}
+
+.nimadir2 {
+    margin-bottom: 22px;
+}

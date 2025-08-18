@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Plumb';
+    src: url('Plumb-Medium.woff2') format('woff2'),
+        url('Plumb-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

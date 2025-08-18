@@ -89,212 +89,6 @@ body {
   overflow: hidden;
 }
 
-.header-mobile-link {
-  display: none;
-}
-
-@media (max-width: 768px) {
-  .header-mobile-link {
-    display: block;
-    margin-left: 10px;
-  }
-  .container {
-    padding: 0 8px !important;
-  }
-  .header-mobile-link.assorti-logo img {
-    width: 65px !important;
-    height: 31px !important;
-  }
-  .header-mobile-link img {
-    width: 20px;
-    height: 20px;
-  }
-  .header-desktop-logo {
-    display: none;
-  }
-  .header-red-big-logo img {
-    width: 40px !important;
-    height: 40px !important;
-  }
-}
-.header-right-logo-box {
-  display: flex;
-  align-items: center;
-}
-
-@media (max-width: 950px) {
-  .footer-right {
-    display: none !important;
-  }
-  .menu-btn {
-    display: block !important;
-  }
-  .footer-link.location-link {
-    max-width: 100%;
-  }
-  .footer-left {
-    width: 100%;
-    justify-content: space-between;
-  }
-  .red-line {
-    display: none !important;
-  }
-  .footer-top {
-    padding: 0 20px;
-  }
-  .container {
-    padding: 0 20px;
-  }
-}
-@media (max-width: 600px) {
-  .footer-bottom .container {
-    flex-direction: column !important;
-    justify-content: start !important;
-    align-items: center !important;
-  }
-  .footer-bottom .footer-bottom-right {
-    flex-direction: column !important;
-    gap: 0 !important;
-  }
-}
-@media (max-width: 768px) {
-  .footer-left {
-    flex-direction: column !important;
-    gap: 12px !important;
-  }
-  .footer-link-box {
-    gap: 12px !important;
-  }
-}
-.buy-car-btn-big {
-  display: none !important;
-}
-
-.advantages-card-box {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Dastlab 4 ta ustun */
-  gap: 20px; /* Kartalar orasidagi masofa */
-  justify-content: center;
-  width: 100%;
-}
-
-/* Tablet (maks. 1024px) - 2 ta ustun */
-@media (max-width: 1024px) {
-  .advantages-card-box {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 120px;
-    width: 100%;
-  }
-}
-/* Mobile (maks. 768px) - 1 ta ustun */
-@media (max-width: 768px) {
-  .sub-title {
-    font-weight: 900;
-    font-size: 14px;
-    line-height: 180%;
-    letter-spacing: 8px !important;
-    text-transform: uppercase;
-  }
-  .advantages-card-box {
-    gap: 0;
-  }
-  .advantages-card.red {
-    padding: 13px !important;
-  }
-  .advantages-title-img {
-    width: 36px;
-    height: 76px;
-  }
-  .advantages-card-box {
-    grid-template-columns: 1fr;
-    width: 100%;
-  }
-  .title {
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 85%;
-    letter-spacing: -3px;
-    text-transform: uppercase;
-  }
-  .advantages-card-box .advantages-card,
-  .advantages-card-box .advantages-card.red {
-    flex-direction: row !important;
-    align-items: center !important;
-    width: 100%;
-    justify-content: space-between !important;
-    padding-top: 13px;
-    border-width: 3px;
-    padding-bottom: 13px;
-    padding-right: 16px;
-    padding-left: 13px;
-    width: 100% !important;
-    height: 53px !important;
-  }
-  .advantages-card-box .advantages-card .advantages-card-title-black,
-  .advantages-card-box .advantages-card .advantages-card-title-red,
-  .advantages-card-box .advantages-card.red .advantages-card-title-black,
-  .advantages-card-box .advantages-card.red .advantages-card-title-red {
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 85%;
-    letter-spacing: -3px;
-    text-transform: uppercase;
-  }
-  .advantages-card-box .advantages-card .advantages-card-info,
-  .advantages-card-box .advantages-card.red .advantages-card-info {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 90%;
-    letter-spacing: -0.5px;
-    margin: 0;
-  }
-  .advantages-card-box .advantages-card .show-more-btn span,
-  .advantages-card-box .advantages-card.red .show-more-btn span {
-    display: none;
-  }
-  .advantages-card-box .advantages-card .show-more-btn img,
-  .advantages-card-box .advantages-card.red .show-more-btn img {
-    width: 15px;
-    height: 15px;
-  }
-}
-@media (max-width: 1333px) {
-  .card-map-img {
-    display: none;
-  }
-  .buy-car-btn {
-    display: none !important;
-  }
-  .buy-car-btn button {
-    display: none !important;
-  }
-}
-.advantages-centred-box {
-  display: flex;
-  justify-content: center;
-}
-
-.buy-car-btn-big {
-  display: block;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 79%;
-  letter-spacing: -0.5px;
-  text-align: center;
-  text-transform: uppercase;
-  width: 100%;
-  color: #fff;
-  background-color: #D60000;
-  border: none;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  cursor: pointer;
-}
-
-.swiper {
-  overflow: visible !important;
-}
-
 /* ===== DEFAULT DESKTOP/LAPTOP STYLE ===== */
 /* Bu qism sen bergan oxirgi rasmga mos bo‘lib qoladi */
 .advantages-section {
@@ -440,6 +234,87 @@ body {
 
 .constructor-section .container {
   position: relative;
+}
+
+.elements-box {
+  width: 100%;
+  position: relative;
+}
+
+.constructor-section {
+  margin-top: 140px;
+}
+
+.intro .container {
+  display: flex;
+  position: relative;
+}
+
+.intro-title {
+  font-weight: 900;
+  font-size: 140px;
+  line-height: 85%;
+  letter-spacing: -21px;
+  text-transform: uppercase;
+  color: #d60000;
+}
+
+.intro-info {
+  max-width: 114px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  margin-top: 162px;
+}
+
+.black-border-box {
+  width: 32px !important;
+  display: flex;
+  flex-direction: column;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 96%;
+  text-transform: uppercase;
+}
+
+.black-borders-box {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  padding-top: 36px;
+  border: 5px solid #000000;
+  width: 141px;
+  height: 487px;
+  position: relative;
+  position: absolute;
+  top: 192px;
+  left: 137px;
+}
+
+.buy-car-btn {
+  background-color: #d60000;
+  color: #fff;
+  width: 218px;
+  height: 50px;
+  font-weight: 700;
+  border: none;
+  font-size: 14px;
+  line-height: 79%;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 334px;
+  left: 81px;
+}
+
+.intro .swiper {
+  position: absolute;
+  right: -470px;
+}
+
+.intro-cars-img {
+  position: absolute;
+  bottom: -168px;
 }
 
 .card-title {
@@ -677,6 +552,252 @@ body {
   background: transparent;
   cursor: pointer;
   display: none;
+}
+
+.header-mobile-link {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header-mobile-link {
+    display: block;
+    margin-left: 10px;
+  }
+  .container {
+    padding: 0 8px !important;
+  }
+  .header-mobile-link.assorti-logo img {
+    width: 65px !important;
+    height: 31px !important;
+  }
+  .header-mobile-link img {
+    width: 20px;
+    height: 20px;
+  }
+  .header-desktop-logo {
+    display: none;
+  }
+  .header-red-big-logo img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+}
+.header-right-logo-box {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 950px) {
+  .footer-right {
+    display: none !important;
+  }
+  .menu-btn {
+    display: block !important;
+  }
+  .footer-link.location-link {
+    max-width: 100%;
+  }
+  .footer-left {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .red-line {
+    display: none !important;
+  }
+  .footer-top {
+    padding: 0 20px;
+  }
+  .container {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 600px) {
+  .footer-bottom .container {
+    flex-direction: column !important;
+    justify-content: start !important;
+    align-items: center !important;
+  }
+  .footer-bottom .footer-bottom-right {
+    flex-direction: column !important;
+    gap: 0 !important;
+  }
+}
+@media (max-width: 768px) {
+  .footer-left {
+    flex-direction: column !important;
+    gap: 12px !important;
+  }
+  .footer-link-box {
+    gap: 12px !important;
+  }
+}
+.buy-car-btn-big {
+  display: none !important;
+}
+
+.advantages-card-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Dastlab 4 ta ustun */
+  gap: 20px; /* Kartalar orasidagi masofa */
+  justify-content: center;
+  width: 100%;
+}
+
+/* Tablet (maks. 1024px) - 2 ta ustun */
+@media (max-width: 1024px) {
+  .advantages-card-box {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 120px;
+    width: 100%;
+  }
+}
+/* Mobile (maks. 768px) - 1 ta ustun */
+@media (max-width: 768px) {
+  .sub-title {
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 8px !important;
+    text-transform: uppercase;
+  }
+  .advantages-card-box {
+    gap: 0;
+  }
+  .advantages-card.red {
+    padding: 13px !important;
+  }
+  .advantages-title-img {
+    width: 36px;
+    height: 76px;
+  }
+  .advantages-card-box {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 85%;
+    letter-spacing: -3px;
+    text-transform: uppercase;
+  }
+  .advantages-card-box .advantages-card,
+  .advantages-card-box .advantages-card.red {
+    flex-direction: row !important;
+    align-items: center !important;
+    width: 100%;
+    justify-content: space-between !important;
+    padding-top: 13px;
+    border-width: 3px;
+    padding-bottom: 13px;
+    padding-right: 16px;
+    padding-left: 13px;
+    width: 100% !important;
+    height: 53px !important;
+  }
+  .advantages-card-box .advantages-card .advantages-card-title-black,
+  .advantages-card-box .advantages-card .advantages-card-title-red,
+  .advantages-card-box .advantages-card.red .advantages-card-title-black,
+  .advantages-card-box .advantages-card.red .advantages-card-title-red {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 85%;
+    letter-spacing: -3px;
+    text-transform: uppercase;
+  }
+  .advantages-card-box .advantages-card .advantages-card-info,
+  .advantages-card-box .advantages-card.red .advantages-card-info {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 90%;
+    letter-spacing: -0.5px;
+    margin: 0;
+  }
+  .advantages-card-box .advantages-card .show-more-btn span,
+  .advantages-card-box .advantages-card.red .show-more-btn span {
+    display: none;
+  }
+  .advantages-card-box .advantages-card .show-more-btn img,
+  .advantages-card-box .advantages-card.red .show-more-btn img {
+    width: 15px;
+    height: 15px;
+  }
+}
+@media (max-width: 1333px) {
+  .card-map-img {
+    display: none;
+  }
+  .buy-car-btn {
+    display: none !important;
+  }
+  .buy-car-btn button {
+    display: none !important;
+  }
+}
+.advantages-centred-box {
+  display: flex;
+  justify-content: center;
+}
+
+.buy-car-btn-big {
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 79%;
+  letter-spacing: -0.5px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  color: #fff;
+  background-color: #D60000;
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.swiper {
+  overflow: visible !important;
+}
+
+@media (max-width: 820px) {
+  .constructor-car-img-box {
+    width: 397px !important;
+    height: 262px !important;
+    mix-blend-mode: Multiply;
+  }
+  .constructor-car-img-box img {
+    width: 100%;
+    height: 100%;
+  }
+  .red-circle {
+    width: 347px !important;
+    height: 347px !important;
+  }
+  .red-circle-title {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 113%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 227px;
+    padding: 0;
+    margin-block: 38px 20px;
+  }
+  .red-circle .red-circle-info {
+    width: 231px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 113%;
+  }
+  .red-circle {
+    top: -155px;
+    left: -37px;
+  }
+  .constructor-car-img-box {
+    bottom: 0;
+    left: -82px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

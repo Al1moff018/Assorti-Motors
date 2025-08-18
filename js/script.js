@@ -1,4 +1,4 @@
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".threeSwiper", {
       slidesPerView: 3,
       spaceBetween: 40,
       loop: true,
@@ -22,4 +22,11 @@ var swiper = new Swiper(".mySwiper", {
       spaceBetween: 40
     }
   }
+});
+var swiper = new Swiper(".mySwiper", {});
+var swiper = new Swiper(".introSwiper ", {
+  pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
 });
